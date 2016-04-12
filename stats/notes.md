@@ -52,7 +52,7 @@ P(Type II Error)   = P(incorrectly failing to reject the null hypothesis)
   
 ---
 
-Data:  Where to Begin  
+####Data:  Where to Begin  
  * Plot it
  * Use a data mining package (optional)
  * do rough graphing  
