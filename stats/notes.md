@@ -55,8 +55,9 @@ P(Type II Error)   = P(incorrectly failing to reject the null hypothesis)
 Data:  Where to Begin  
  * Plot it
  * Use a data mining package (optional)
- * do rough graphing
- * 
+ * do rough graphing  
+ 
+
 Step 3:  Carry out your final analysis.  
  * test the right hypothesis
  * Don't get greedy.  TANSTAAFL
