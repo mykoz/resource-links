@@ -65,6 +65,9 @@ Step 3:  Carry out your final analysis.
  * This matters if you want real results
  
 
- 
+####P-value
+A p-value is the probability of obtaining a sample at least as extreme as the one we just observed when assuming the null hypothesis is actually true.  
+
+
  
 
