@@ -49,7 +49,21 @@ P(Type I Error) = P(Incorrectly rejecting the null hypothesis)
 Let a guilty criminal go free.  
 P(Type II Error)   = P(incorrectly failing to reject the null hypothesis)
   = 1 - Power
+  
+---
+
+Data:  Where to Begin  
+ * Plot it
+ * Use a data mining package (optional)
+ * do rough graphing
+ * 
+Step 3:  Carry out your final analysis.  
+ * test the right hypothesis
+ * Don't get greedy.  TANSTAAFL
+ * In a nutshell:  keep your final analysis sleek and meaningful.
+ * This matters if you want real results
  
+
  
  
 
