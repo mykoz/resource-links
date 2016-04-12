@@ -14,7 +14,24 @@ How to split
       * sample size
 
 ---  
- 
+
+####Power & Sample Size Calculations
+
+If you're stuck and not sure what you're doing, make some fake data and play with that.
+
+---
+
+####Power
+
+Forming hypothesis  
+H0: default action we are promising to execute when we know nothing; promise to do this if we don't learn anything  
+H1:  
+
+Does our evidence make the null hypothesis look like a ridiculous proposition?  
+
+Example:  
+H0:  not guilty  (Action:  go free)  
+H1:  guilty      (Action:  convict)  
  
  
 
