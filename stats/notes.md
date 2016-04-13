@@ -68,6 +68,11 @@ Step 3:  Carry out your final analysis.
 ####P-value
 A p-value is the probability of obtaining a sample at least as extreme as the one we just observed when assuming the null hypothesis is actually true.  
 
+####Confidence Interval  
+
+In picking tools, ask:
+ * what is the problem?
+
 
  
 
