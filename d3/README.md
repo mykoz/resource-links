@@ -2,6 +2,14 @@ Google Chrome:
 > this opens the Developer window:  Option + Command + i
 
 ---
+
+The book is available online for free.
+http://chimera.labs.oreilly.com/books/1230000000345
+
+Its associated code:
+https://github.com/alignedleft/d3-book
+
+---
 ###mbostock wiki's
 [selection.attr](https://github.com/mbostock/d3/wiki/Selections#attr)  
 [selection.style](https://github.com/mbostock/d3/wiki/Selections#style)  
