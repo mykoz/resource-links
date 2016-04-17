@@ -1,4 +1,12 @@
-
+###[D3.js](https://d3js.org/)
+[D3.js (or just D3 for Data-Driven Documents)](https://en.wikipedia.org/wiki/D3.js)
+ * is a JavaScript library for producing dynamic, interactive data visualizations in web browsers. 
+ * It makes use of the widely implemented SVG, HTML5, and CSS standards. 
+ * It is the successor to the earlier Protovis framework. 
+ * In contrast to many other libraries, D3.js allows great control over the final visual result.
+ * Its development was noted in 2011, as version 2.0.0 was released in August 2011.
+    * [D3 versions](https://github.com/mbostock/d3/releases)
+    * Latest version is 3.5.16 (Feb 2016)
 ###SVG
 [SVG = Scalable Vector Graphics](http://www.w3schools.com/svg/)  
  * SVG is used to define vector-based graphics for the Web
