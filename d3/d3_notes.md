@@ -3,12 +3,22 @@
 [Margin Conventions](https://bl.ocks.org/mbostock/3019563)  
 [Making a Bar Chart](https://bl.ocks.org/mbostock/3885304)
 [Mister Nester](http://bl.ocks.org/shancarter/raw/4748131/)  
+
+####D3 Nest
 ```
 d3.nest()
   .key(function(d) { return d.variety; })
   .entries(data);
 ```  
-In SVG land, a "g" element is a _group_ element  
+
+###Group elements:  g  
+ * in SVG land, a "g" element is a _group_ element  
+ * group elements are invisible (unline line, rect and cir) and they have no visual presence themselves
+ * they help us in 2 ways:
+    * g elements can be used to contain (or "group") other elements, which keeps our code nice and tidy
+    * we can apply _transformations_ to g elements, which affects how visual elements within that group (such as line, rects and circles are rendered.
+    
+---
 
 [Let's Make a Block](https://bost.ocks.org/mike/block/)  
 http://bl.ocks.org/reshama
