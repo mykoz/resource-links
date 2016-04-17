@@ -10,6 +10,11 @@ d3.nest()
   .key(function(d) { return d.variety; })
   .entries(data);
 ```  
+---
+
+###[SVG Attribute Reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute)
+
+--- 
 
 ###Group elements:  g  
  * in SVG land, a "g" element is a _group_ element  
