@@ -17,7 +17,10 @@ d3.nest()
  * they help us in 2 ways:
     * g elements can be used to contain (or "group") other elements, which keeps our code nice and tidy
     * we can apply _transformations_ to g elements, which affects how visual elements within that group (such as line, rects and circles are rendered.
-    
+
+###Axes
+ * made up of:  path, line and text elements; these are the 3 elements we target in our CSS
+ 
 ---
 
 ###Making a Block or Gist
