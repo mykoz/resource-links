@@ -1,4 +1,4 @@
-Mike Bostock - create of D3 
+Mike Bostock - creator of D3 
  * twitter:  [mbostock](https://twitter.com/mbostock)
  * website: [bost.ocks.org](http://bost.ocks.org/mike/)
  * github: [mbostock](https://github.com/mbostock)
