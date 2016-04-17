@@ -8,7 +8,8 @@ d3.nest()
   .key(function(d) { return d.variety; })
   .entries(data);
 ```  
- 
+In SVG land, a "g" element is a _group_ element  
+
 [Let's Make a Block](https://bost.ocks.org/mike/block/)  
 http://bl.ocks.org/reshama
 
