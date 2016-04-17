@@ -32,6 +32,7 @@ d3.nest()
 .axis text {
     font-family: sans-serif;
     font-size: 11px;
+    fill: olive;
     }
 ```
 
