@@ -6,7 +6,8 @@
  * In contrast to many other libraries, D3.js allows great control over the final visual result.
  * Its development was noted in 2011, as version 2.0.0 was released in August 2011.
     * [D3 versions](https://github.com/mbostock/d3/releases)
-    * Latest version is 3.5.16 (Feb 2016)
+    * Latest version is 3.5.16 (Feb 2016)  
+   
 ###SVG
 [SVG = Scalable Vector Graphics](http://www.w3schools.com/svg/)  
  * SVG is used to define vector-based graphics for the Web
