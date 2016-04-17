@@ -1,5 +1,12 @@
+Mike Bostock - create of D3 
+ * twitter:  [mbostock](https://twitter.com/mbostock)
+ * website: [bost.ocks.org](http://bost.ocks.org/mike/)
+ * github: [mbostock](https://github.com/mbostock)
+ * PhD at Stanford
+
 ###[D3.js](https://d3js.org/)
 [D3.js (or just D3 for Data-Driven Documents)](https://en.wikipedia.org/wiki/D3.js)
+ * open-source
  * is a JavaScript library for producing dynamic, interactive data visualizations in web browsers. 
  * It makes use of the widely implemented SVG, HTML5, and CSS standards. 
  * It is the successor to the earlier Protovis framework. 
