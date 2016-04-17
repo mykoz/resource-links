@@ -27,3 +27,5 @@ https://github.com/alignedleft/d3-book
 ---
 [D3.js Scales](https://www.dashingd3js.com/d3js-scales)
 
+![scale1](img/scale1.png)
+![scale2](img/scale2.png)
