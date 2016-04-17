@@ -20,6 +20,21 @@ d3.nest()
 
 ###Axes
  * made up of:  path, line and text elements; these are the 3 elements we target in our CSS
+    * paths and lines can be style with same rules
+    * text - gets its own rules around font and font size
+```
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+    }
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+    }
+```
+
  
 ---
 
