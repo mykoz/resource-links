@@ -55,7 +55,9 @@ Step 7) Review Instance Launch: your set-up will look like below screenshot
 Find (in blue):  "Get notified of estimated charges"  
 Select **Create billing alerts**  
 Check all 3 preferences and select **Save preferences**  
-You can then close this tab.
+You can then close this tab.  
+Back to other AWS tab.  Scroll down and select **View Instances**
+
 
 ---
 
