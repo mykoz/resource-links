@@ -34,10 +34,6 @@ Name a new security group and allow some more ports if you like.
 >     Add Rule:  select 'Custom TCP Rule'  
       Port Range: 80  (for web REST)
       Source:  Anywhere  
-    
->     Add Rule:  select 'Custom TCP Rule'
-      Port Range: 5432  (for PostgreSQL)
-      Source:  Anywhere
 
 **Review and Launch**    
     
