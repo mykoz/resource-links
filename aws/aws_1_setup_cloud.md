@@ -152,7 +152,7 @@ ssh -i ~/.ssh/my_cool_machine.pem ubuntu@123.234.123.234
 
 ####Connect to your Cloud Machine from your local computer!  
 ```
-reshama$ ssh -i "aws.pem" ubuntu@54.165.157.51  
+reshama$ ssh -i "aws_ds7.pem" ubuntu@54.165.157.51  
 
 The authenticity of host '54.165.157.51 (54.165.157.51)' can't be established.
 ECDSA key fingerprint is SHA256:0/xYknp2uz/6NLgHjM8RRqpsX0ykIGj8xQV9PqL3mkU.
