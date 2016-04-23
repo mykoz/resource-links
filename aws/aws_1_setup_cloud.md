@@ -39,6 +39,7 @@ Name a new security group and allow some more ports if you like.
     
 Step 7) Review Instance Launch: your set-up will look like below screenshot  
 **Launch**  
+
   ![review instance](img/aws_review_instance.png)
     
     
