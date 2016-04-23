@@ -23,4 +23,24 @@ ubuntu@ip-172-31-60-68:~$ sudo apt-get update
 ubuntu@ip-172-31-60-68:~$ sudo apt-get install python-pip
 ```
 
+####Add user
+```
+ubuntu@ip-172-31-60-68:/home$ sudo adduser reshama
+```
+Note:  pick a password (save it in a place); enter through name fields, etc.
+
+
+```
+ubuntu@ip-172-31-60-68:/home$ cd ..
+ubuntu@ip-172-31-60-68:/home$ pwd
+/home
+ubuntu@ip-172-31-60-68:/home$ ls
+reshama  ubuntu
+ubuntu@ip-172-31-60-68:/home$ 
+ubuntu@ip-172-31-60-68:/home$ cd ubuntu/
+ubuntu@ip-172-31-60-68:~$ ls
+ubuntu@ip-172-31-60-68:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-60-68:~$ 
+```
 
