@@ -113,10 +113,6 @@ On your EC2 Dashboard, you'll soon be able to find the IP address of your new cl
 
 **Open a new terminal window.**
 
-You can access it like this:
-```
-ssh -i ~/.ssh/my_cool_machine.pem ubuntu@123.234.123.234
-```
 **My example:**  
 ####Generate ssh key  
 ```
@@ -148,6 +144,12 @@ The key's randomart image is:
 reshama$ pwd
 /Users/reshamashaikh/.ssh
 ```
+
+####(or you can access it like this, if you are not in `.ssh` directory):
+```
+ssh -i ~/.ssh/my_cool_machine.pem ubuntu@123.234.123.234
+```
+
 ####Connect to your Cloud Machine from your local computer!  
 ```
 reshama$ ssh -i "aws.pem" ubuntu@54.165.157.51  
