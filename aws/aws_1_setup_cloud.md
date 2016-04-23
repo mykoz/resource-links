@@ -147,6 +147,9 @@ The key's randomart image is:
 ```
 reshama$ pwd
 /Users/reshamashaikh/.ssh
+```
+####Connect to your Cloud Machine from your local computer!  
+```
 reshama$ ssh -i "aws.pem" ubuntu@54.165.157.51  
 
 The authenticity of host '54.165.157.51 (54.165.157.51)' can't be established.
