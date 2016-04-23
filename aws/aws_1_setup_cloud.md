@@ -87,7 +87,10 @@ reshama$ ls *id_rsa*
 -rw-r--r--  1    422 Jun  2  2015 id_rsa.pub
 reshama$ 
 ```  
-If you do not have them, 
+If you do not have them, generate them with `ssh-keygen`    
+(When asked where to save, the default location is correct (ex: /Users/username/.ssh/id_rsa) : so hit Enter)
+
+--- 
 
 ##Connecting to your Instance  
 **Save a screen shot:  this pop-up has very valuable information!**
