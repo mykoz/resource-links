@@ -180,12 +180,15 @@ applicable law.
 
 ubuntu@ip-172-31-60-68:~$ 
 ```
+
+####To exit Ubuntu machine (AWS cloud machine)  
+```
 ubuntu@ip-172-31-60-68:~$ exit
 logout
 Connection to 54.165.157.51 closed.
 ```
 
- ![connect to instance](img/aws_connect_to_instance.png)
+
 
 
 
