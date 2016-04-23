@@ -49,18 +49,40 @@ Step 7) Review Instance Launch: your set-up will look like below screenshot
 
 1.  Choose to "Create a new key pair" and give it a name:  **aws_ds7key**  
 2.  Download keypair
-3.  Save file 
-    For me, it is in this folder:  
+3.  Save file.  For me, it is in this folder:  
 ```
 reshama$ pwd
 /Users/reshamashaikh/Downloads
 reshama$ ls *aws_ds7key*
 -rw-r--r--@ 1   1692 Apr 23 14:46 aws_ds7key.pem
 reshama$ 
+```  
+Move your file to `~/.ssh/`.  (Note:  if you do not have an ssh folder, create one:  `mkdir ~/.ssh`)  
+```  
+reshama$ mv aws_ds7key.pem ~/.ssh
 ```
-
-
-
+Make your file read only with `chmod 400 filename`
+```
+reshama$ cd ~/.ssh
+reshama$ pwd
+/Users/reshamashaikh/.ssh
+reshama$ 
+reshama$ ls *aws_ds7key*
+-rw-r--r--@ 1   1692 Apr 23 14:46 aws_ds7key.pem
+reshama$ chmod 400 aws_ds7key.pem
+reshama$ ls *aws_ds7key*
+-r--------@ 1   1692 Apr 23 14:46 aws_ds7key.pem
+reshama$ 
+```  
+Check that you have `id_rsa` and `id_rsa.pub` files within your .ssh file  
+```
+reshama$ pwd
+/Users/reshamashaikh/.ssh
+reshama$ ls *id_rsa*
+-rw-------  1   1675 Jun  2  2015 id_rsa
+-rw-r--r--  1    422 Jun  2  2015 id_rsa.pub
+reshama$ 
+```
 
 ##Connecting to your Instance  
 **Save a screen shot:  this pop-up has very valuable information!**
