@@ -53,6 +53,7 @@ Step 7) Review Instance Launch: your set-up will look like below screenshot
 ```
 reshama$ pwd
 /Users/reshamashaikh/Downloads
+reshama$ 
 reshama$ ls *aws_ds7key*
 -rw-r--r--@ 1   1692 Apr 23 14:46 aws_ds7key.pem
 reshama$ 
@@ -69,7 +70,9 @@ reshama$ pwd
 reshama$ 
 reshama$ ls *aws_ds7key*
 -rw-r--r--@ 1   1692 Apr 23 14:46 aws_ds7key.pem
+reshama$ 
 reshama$ chmod 400 aws_ds7key.pem
+reshama$ 
 reshama$ ls *aws_ds7key*
 -r--------@ 1   1692 Apr 23 14:46 aws_ds7key.pem
 reshama$ 
@@ -78,11 +81,13 @@ Check that you have `id_rsa` and `id_rsa.pub` files within your .ssh file
 ```
 reshama$ pwd
 /Users/reshamashaikh/.ssh
+reshama$ 
 reshama$ ls *id_rsa*
 -rw-------  1   1675 Jun  2  2015 id_rsa
 -rw-r--r--  1    422 Jun  2  2015 id_rsa.pub
 reshama$ 
-```
+```  
+If you do not have them, 
 
 ##Connecting to your Instance  
 **Save a screen shot:  this pop-up has very valuable information!**
