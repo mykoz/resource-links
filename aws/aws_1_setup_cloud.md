@@ -24,12 +24,12 @@
 ---
 ##Setting up Instance
 
-Step 1) Choose an Amazon Machine Image (AMI):  Ubuntu Server [press blue Select button]  
-Step 2) Choose an Instance Type:  Select a "Free tier eligible" "t2.micro" instance  
-Step 3) Configure Instance Details:  [accept default]  
-Step 4) Add Storage:  [accept default]  
+Step 1) Choose an Amazon Machine Image (AMI):  **Ubuntu Server** [press blue Select button]  
+Step 2) Choose an Instance Type:  Select a **Free tier eligible** "t2.micro" instance  
+Step 3) **Next: Configure Instance Details**  [accept default]  
+Step 4) **Next:  Add Storage**  [accept default]  
 Step 5) Tag Instance: `awsds7`  
-Step 6) Configure Security Group: Name a new security group and allow some more ports if you like. 80 is a fun port to allow.  
+Step 6) **Next:  Configure Security Group** Name a new security group and allow some more ports if you like. 80 is a fun port to allow.  
 >    Add Rule:  select 'Custom TCP Rule'  
     Port Range: 80  
     Review and Launch / Launch    
