@@ -29,7 +29,8 @@ Step 2) Choose an Instance Type:  Select a **Free tier eligible** "t2.micro" ins
 Step 3) **Next: Configure Instance Details**  [accept default]  
 Step 4) **Next:  Add Storage**  [accept default]  
 Step 5) Tag Instance: `awsds7`  
-Step 6) **Next:  Configure Security Group** Name a new security group and allow some more ports if you like.  
+Step 6) **Next:  Configure Security Group**  
+Name a new security group and allow some more ports if you like.  
 >     Add Rule:  select 'Custom TCP Rule'  
       Port Range: 80  (for web REST)
       Source:  Anywhere  
@@ -37,8 +38,8 @@ Step 6) **Next:  Configure Security Group** Name a new security group and allow 
 >     Add Rule:  select 'Custom TCP Rule'
       Port Range: 5432  (for PostgreSQL)
       Source:  Anywhere
-    
-    **Review and Launch / Launch**    
+
+**Review and Launch**    
     
 Step 7) Review Instance Launch: your set-up will look like below screenshot  
 
