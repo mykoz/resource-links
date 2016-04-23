@@ -92,14 +92,13 @@ reshama$ ls *id_rsa*
 reshama$ 
 ```  
 If you do not have them, generate them with `$ ssh-keygen -t rsa`    
-(When asked where to save, the default location is correct (ex: /Users/username/.ssh/id_rsa) : so hit Enter)
+(When asked where to save, the default location is correct (ex: /Users/username/.ssh/id_rsa) : so hit Enter)  
 
 --- 
 
 ##Connecting to your Instance  
-Open a new terminal.  
-
-3.  **Launch Instance**
+###AWS:  
+**Launch Instance**
 
 ##Set Up Billing  
 Find (in blue):  "Get notified of estimated charges"  
@@ -109,13 +108,20 @@ You can then close this tab.
 Back to other AWS tab.  Scroll down and select **View Instances**
 
 On your EC2 Dashboard, you'll soon be able to find the IP address of your new cloud computer!  
+
+###On Your Local Machine  
+
+**Open a new terminal window.**
+
 You can access it like this:
 ```
 ssh -i ~/.ssh/my_cool_machine.pem ubuntu@123.234.123.234
 ```
-My example:  
+**My example:**  
+####Generate ssh key  
 ```
 reshama$ ssh-keygen -t rsa
+reshama$
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/reshamashaikh/.ssh/id_rsa): 
 Enter passphrase (empty for no passphrase): 
@@ -136,9 +142,13 @@ The key's randomart image is:
 |      .+..Eoo.oB=|
 |       .=++...+oo|
 +----[SHA256]-----+
+```
+####Make sure you are in the ssh directory  
+```
 reshama$ pwd
 /Users/reshamashaikh/.ssh
-reshama$ ssh -i "aws.pem" ubuntu@54.165.157.51
+reshama$ ssh -i "aws.pem" ubuntu@54.165.157.51  
+
 The authenticity of host '54.165.157.51 (54.165.157.51)' can't be established.
 ECDSA key fingerprint is SHA256:0/xYknp2uz/6NLgHjM8RRqpsX0ykIGj8xQV9PqL3mkU.
 Are you sure you want to continue connecting (yes/no)? yes
@@ -161,8 +171,6 @@ Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.13.0-74-generic x86_64)
 0 packages can be updated.
 0 updates are security updates.
 
-
-
 The programs included with the Ubuntu system are free software;
 the exact distribution terms for each program are described in the
 individual files in /usr/share/doc/*/copyright.
@@ -171,6 +179,7 @@ Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 applicable law.
 
 ubuntu@ip-172-31-60-68:~$ 
+```
 ubuntu@ip-172-31-60-68:~$ exit
 logout
 Connection to 54.165.157.51 closed.
