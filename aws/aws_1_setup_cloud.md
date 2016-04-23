@@ -12,6 +12,7 @@
 
 3.  AWS Console  
   Lot of options!  We will choose "Compute/EC2"  [upper left of screen]  
+  EC2 = Elastic Compute Cloud    
   ![AWS Console](img/aws_console.png)
 
 4.  Region [on upper right of screen]  
