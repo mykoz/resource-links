@@ -109,9 +109,19 @@ If you do not have them, generate them with `ssh-keygen`
 ##From your local computer to AWS Instance  
 Open a new terminal.  
 
+On your EC2 Dashboard, you'll soon be able to find the IP address of your new cloud computer!  
+You can access it like this:
+```
+ssh -i ~/.ssh/my_cool_machine.pem ubuntu@123.234.123.234
+```
+My example:  
+```
+reshama$ ssh -i ~/.ssh/aws_ds7key.pem ubuntu@52.91.85.140
 ```
 
-```
+
+
+
 **Save a screen shot:  this pop-up has very valuable information!**
 
 To access your instance:
