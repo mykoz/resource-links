@@ -49,7 +49,15 @@ Step 7) Review Instance Launch: your set-up will look like below screenshot
 
 1.  Choose to "Create a new key pair" and give it a name:  **aws_ds7key**  
 2.  Download keypair
-3.  Save file.  For me, it is in this folder:  
+3.  **Launch Instance**
+
+##Set Up Billing  
+Find (in blue):  "Get notified of estimated charges"  
+Select **Create billing alerts**  
+Check all 3 preferences and select **Save preferences**  
+
+###Keypair
+Save file.  For me, it is in this folder:  
 ```
 reshama$ pwd
 /Users/reshamashaikh/Downloads
