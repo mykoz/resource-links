@@ -49,15 +49,6 @@ Step 7) Review Instance Launch: your set-up will look like below screenshot
 
 1.  Choose to "Create a new key pair" and give it a name:  **aws_ds7key**  
 2.  Download keypair
-3.  **Launch Instance**
-
-##Set Up Billing  
-Find (in blue):  "Get notified of estimated charges"  
-Select **Create billing alerts**  
-Check all 3 preferences and select **Save preferences**  
-You can then close this tab.  
-Back to other AWS tab.  Scroll down and select **View Instances**
-
 
 ---
 
@@ -100,14 +91,22 @@ reshama$ ls *id_rsa*
 -rw-r--r--  1    422 Jun  2  2015 id_rsa.pub
 reshama$ 
 ```  
-If you do not have them, generate them with `ssh-keygen`    
+If you do not have them, generate them with `$ ssh-keygen -t rsa`    
 (When asked where to save, the default location is correct (ex: /Users/username/.ssh/id_rsa) : so hit Enter)
 
 --- 
 
 ##Connecting to your Instance  
-##From your local computer to AWS Instance  
 Open a new terminal.  
+
+3.  **Launch Instance**
+
+##Set Up Billing  
+Find (in blue):  "Get notified of estimated charges"  
+Select **Create billing alerts**  
+Check all 3 preferences and select **Save preferences**  
+You can then close this tab.  
+Back to other AWS tab.  Scroll down and select **View Instances**
 
 On your EC2 Dashboard, you'll soon be able to find the IP address of your new cloud computer!  
 You can access it like this:
@@ -116,53 +115,39 @@ ssh -i ~/.ssh/my_cool_machine.pem ubuntu@123.234.123.234
 ```
 My example:  
 ```
-reshama$ ssh -i ~/.ssh/aws_ds7key.pem ubuntu@52.91.85.140
-```
-
-
-
-
-**Save a screen shot:  this pop-up has very valuable information!**
-
-To access your instance:
-
-    Open an SSH client. (find out how to connect using PuTTY)
-    Locate your private key file (awskey_ds7.pem). The wizard automatically detects the key you used to launch the instance.
-    Your key must not be publicly viewable for SSH to work. Use this command if needed:
-
-    chmod 400 awskey_ds7.pem
-
-    Connect to your instance using its Public DNS:
-
-    ec2-54-152-105-0.compute-1.amazonaws.com
-
-Example:
-
-    ssh -i "awskey_ds7.pem" ubuntu@ec2-54-152-105-0.compute-1.amazonaws.com
-
-
-
-Please note that in most cases the username above will be correct, however please ensure that you read your AMI usage instructions to ensure that the AMI owner has not changed the default AMI username.
-If you need any assistance connecting to your instance, please see our connection documentation.
-
-
-
-
- ![connect to instance](img/aws_connect_to_instance.png)
-
-
-```
-reshama$ ssh -i "awskeyds7.pem" ubuntu@ec2-52-90-175-82.compute-1.amazonaws.com
-
-    The authenticity of host 'ec2-52-90-175-82.compute-1.amazonaws.com (52.90.175.82)' can't be established.
-ECDSA key fingerprint is SHA256:nxfp+WXpqy4YtZYL+Swe7333bgcHcdF9p8cfpdk+ghM.
+reshama$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/reshamashaikh/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/reshamashaikh/.ssh/id_rsa.
+Your public key has been saved in /Users/reshamashaikh/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:X3a3M90WKnog8ONPmD5zd2dXQXYkPJDBvL+Xk4W8K2o reshamashaikh@RESHAMAs-MacBook-Pro.local
+The key's randomart image is:
++---[RSA 2048]----+
+|           oo=...|
+|            + o+.|
+|             .o..|
+|     .      .  . |
+|      o S   oo.oo|
+|       +oo o .=.B|
+|      .oo.o. . *O|
+|      .+..Eoo.oB=|
+|       .=++...+oo|
++----[SHA256]-----+
+reshama$ pwd
+/Users/reshamashaikh/.ssh
+reshama$ ssh -i "aws.pem" ubuntu@54.165.157.51
+The authenticity of host '54.165.157.51 (54.165.157.51)' can't be established.
+ECDSA key fingerprint is SHA256:0/xYknp2uz/6NLgHjM8RRqpsX0ykIGj8xQV9PqL3mkU.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added 'ec2-52-90-175-82.compute-1.amazonaws.com,52.90.175.82' (ECDSA) to the list of known hosts.
+Warning: Permanently added '54.165.157.51' (ECDSA) to the list of known hosts.
 Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.13.0-74-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com/
 
-  System information as of Sun Apr 10 21:15:44 UTC 2016
+  System information as of Sat Apr 23 20:09:58 UTC 2016
 
   System load: 0.16             Memory usage: 5%   Processes:       82
   Usage of /:  9.9% of 7.74GB   Swap usage:   0%   Users logged in: 0
@@ -185,5 +170,13 @@ individual files in /usr/share/doc/*/copyright.
 Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
 applicable law.
 
-ubuntu@ip-172-31-59-73:~$ 
+ubuntu@ip-172-31-60-68:~$ 
+ubuntu@ip-172-31-60-68:~$ exit
+logout
+Connection to 54.165.157.51 closed.
 ```
+
+ ![connect to instance](img/aws_connect_to_instance.png)
+
+
+
