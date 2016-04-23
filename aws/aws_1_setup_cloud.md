@@ -106,6 +106,12 @@ If you do not have them, generate them with `ssh-keygen`
 --- 
 
 ##Connecting to your Instance  
+##From your local computer to AWS Instance  
+Open a new terminal.  
+
+```
+
+```
 **Save a screen shot:  this pop-up has very valuable information!**
 
 To access your instance:
