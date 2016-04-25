@@ -78,15 +78,34 @@ sudo mkdir /home/my_cool_username/.ssh/
 sudo nano /home/my_cool_username/.ssh/authorized_keys
 ```
 
-Copy in your public key, save, and quit.  
-**Save file in _nano_ editor:  Ctrl-o** then Enter when asked for the file name.    
-**Exit file from _nano_ editor: Ctrl-x**  
+**My example:**  
+```
+1)  get output from your local public key file like this:
+reshama$ pwd
+/Users/reshamashaikh/.ssh
+reshama$ cat id_rsa.pub
+
+2) Copy everything (command c)
+
+3) On your AWS machine:  
+after you run:
+```
+sudo nano /home/reshama/.ssh/authorized_keys
+```
+To paste in the current window:  Command v
+then hit  
+ctrl o (to save)  
+enter
+ctrl x (to exit)
+```
 
 Don't log out until you verify that this has worked! Open a new shell on your local machine. You should be able to log in to your remote machine like this:
 
 ```
 ssh my_cool_username@123.234.123.234
 ```
+
+--
 
 Nobody wants to type all that. Edit your `~/.ssh/config` (on your local machine):
 
