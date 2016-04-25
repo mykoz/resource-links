@@ -20,10 +20,9 @@ sudo apt-get install python-pip
 ####To update your libraries
 ```
 ubuntu@ip-172-31-60-68:~$ sudo apt-get update
-
+```
 ---
 
-```
 ####Install `pip`
 ```
 ubuntu@ip-172-31-60-68:~$ sudo apt-get install python-pip
