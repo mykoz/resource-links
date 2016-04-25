@@ -85,7 +85,7 @@ reshama$ pwd
 /Users/reshamashaikh/.ssh
 reshama$ cat id_rsa.pub
 
-2) Copy everything (command c)
+2) Copy everything (Command c)
 
 3) On your AWS machine:  
 after you run:
