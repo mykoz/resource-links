@@ -34,13 +34,32 @@ ubuntu@ip-172-31-60-68:~$ sudo apt-get install python-pip
 > Fun Fact:  Did you know that when you see a yes/no prompt in this format `[Y]/n`, that you can simply hit `Enter` and it will assume you mean the default(capital and bracketed) option?  No need to type a capital Y.  (time saved can be spent on other things.)  
 For `apt-get`, you can alsojust add the `-y` flag.  
 
+####Install `scipy` stack
+Now that we're on Ubuntu, we can install our stack of usual tools with this line. (There are convenient `apt-get` packages instead of doing everything via `pip`.)
+```
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+```
+
+####Install `emacs` editor
+We'll also be interacting with repositories from our server, and I like Emacs, so let's do this.  
+```
+sudo apt-get install git emacs
+```
+
+---
 
 ####Add user
 ```
 ubuntu@ip-172-31-60-68:/home$ sudo adduser reshama
 ```
-Note:  pick a password (save it in a place); enter through name fields, etc.
+Note:  pick a password (save it in a place); enter through all the other questions (name fields, etc.)  
 
+####User privileges  
+Make yourself special by granting yourself root privileges: type `sudo visudo`. This will open up _nano_ (a text editor) to edit the sudoers file. Find the line that says `root    ALL=(ALL:ALL) ALL`. Give yourself a line beneath that which says `[username] ALL=(ALL:ALL) ALL`. Save by hitting Ctrl-o and then Enter when asked for the file name. Exit _nano_ with Ctrl-x.
+
+
+
+---
 
 ```
 ubuntu@ip-172-31-60-68:/home$ cd ..
