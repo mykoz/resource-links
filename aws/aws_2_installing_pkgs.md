@@ -49,7 +49,7 @@ sudo apt-get install git emacs
 
 ---
 
-####Add user
+###Add user
 ```
 ubuntu@ip-172-31-60-68:/home$ sudo adduser reshama
 ```
@@ -68,7 +68,7 @@ reshama  ALL=(ALL:ALL) ALL
 
 ----
 
-###Setting up User Account
+####Setting up User Account
 
 Now you have a user account, but you can't just log in with a password. Passwords aren't secure enough. Copy your public key (from your local machine) `~/.ssh/id_rsa.pub` to your remote machine to the authorized keys file.  
 (Create the authorized_keys file as follows:)  
@@ -99,9 +99,7 @@ User my_cool_username
 Now you can log in to your remote machine with `ssh my_cool_machine`.
 
 
-#### All s Everything
-
-Send a file from your local machine to your remote machine:
+####Send a file from your local machine to your remote machine
 
 ```
 scp cool_file.png my_cool_machine:~
