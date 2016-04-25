@@ -66,10 +66,56 @@ reshama  ALL=(ALL:ALL) ALL
 **Save file in _nano_ editor:  Ctrl-o** then Enter when asked for the file name.    
 **Exit file from _nano_ editor: Ctrl-x**  
 
+Now you have a user account, but you can't just log in with a password. Passwords aren't secure enough. Copy your public key (from your local machine) `~/.ssh/id_rsa.pub` to your remote machine to the authorized keys file (Create the authorized_keys file as follows:)
 
+```
+sudo mkdir /home/my_cool_username/.ssh/
+sudo nano /home/my_cool_username/.ssh/authorized_keys
+```
+
+Copy in your public key, save, and quit.
+
+Don't log out until you verify that this has worked! Open a new shell on your local machine. You should be able to log in to your remote machine like this:
+
+```
+ssh my_cool_username@123.234.123.234
+```
+
+Nobody wants to type all that. Edit your `~/.ssh/config`:
+
+```
+Host my_cool_machine
+Hostname 123.234.123.234
+User my_cool_username
+```
+
+Now you can log in to your remote machine with `ssh my_cool_machine`.
+
+
+#### All s Everything
+
+Send a file from your local machine to your remote machine:
+
+```
+scp cool_file.png my_cool_machine:~
+```
+
+
+#### Very Web
+
+```
+python -m SimpleHTTPServer
+```
 
 ---
 
+# THE POSSIBILITIES ARE ENDLESS
+
+Seriously. Think about what you can do.
+
+---
+
+####Show all users
 ```
 ubuntu@ip-172-31-60-68:/home$ cd ..
 ubuntu@ip-172-31-60-68:/home$ pwd
