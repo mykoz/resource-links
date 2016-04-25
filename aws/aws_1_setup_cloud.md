@@ -146,7 +146,8 @@ reshama$ pwd
 /Users/reshamashaikh/.ssh
 ```
 
-####(or you can access it like this, if you are not in `.ssh` directory):
+####(or you can access it like this, if you are not in `.ssh` directory):  
+**Note:  the numbers after "ubuntu@" come from AWS; it is the Public IP.  
 ```
 ssh -i ~/.ssh/my_cool_machine.pem ubuntu@123.234.123.234
 ```
