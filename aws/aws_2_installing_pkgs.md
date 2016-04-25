@@ -107,7 +107,7 @@ ssh my_cool_username@123.234.123.234
 reshama$ ssh reshama@54.172.80.95
 ```
 
---
+---
 
 Nobody wants to type all that. Edit your `~/.ssh/config` (on your local machine):
 
