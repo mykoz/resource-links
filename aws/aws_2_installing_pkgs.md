@@ -101,16 +101,14 @@ Host myaws
      HostName 54.172.80.95
      User reshama
 ```
+Now you can log in to your remote machine with `ssh my_cool_machine`.
+
 **My example:**  
 ```
 reshama$ ssh myaws
 ```
 
-Now you can log in to your remote machine with `ssh my_cool_machine`.
-
-
 ####Send a file from your local machine to your remote machine
-
 ```
 scp cool_file.png my_cool_machine:~
 ```
