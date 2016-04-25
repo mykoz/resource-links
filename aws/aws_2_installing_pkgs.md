@@ -17,11 +17,11 @@ sudo apt-get install python-pip
 ##Some Helpful Notes
 
 ####We can run things as root by prefixing our commands with `sudo`
-####To update your libraries
+####To update your libraries, use `apt-get update`
 ```
 ubuntu@ip-172-31-60-68:~$ sudo apt-get update
 ```
-####[`apt-get` Package Management Tool](https://help.ubuntu.com/12.04/serverguide/apt-get.html) 
+####[`apt-get` Package Management Tool](https://help.ubuntu.com/12.04/serverguide/apt-get.html)   
 Read more about `apt-get` at above link.  
 ---
 
