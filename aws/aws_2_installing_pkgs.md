@@ -118,7 +118,7 @@ scp cool_file.png my_cool_machine:~
 ```
 reshama$ scp trysql.py myaws:~
 ```
-Note:  check your user account on AWS.  The file was copied there~  
+Note:  check your user account on AWS.  The file was copied there!!! :clap:
 
 
 #### Very Web
