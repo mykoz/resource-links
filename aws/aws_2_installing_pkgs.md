@@ -70,14 +70,17 @@ reshama  ALL=(ALL:ALL) ALL
 
 ###Setting up User Account
 
-Now you have a user account, but you can't just log in with a password. Passwords aren't secure enough. Copy your public key (from your local machine) `~/.ssh/id_rsa.pub` to your remote machine to the authorized keys file (Create the authorized_keys file as follows:)
+Now you have a user account, but you can't just log in with a password. Passwords aren't secure enough. Copy your public key (from your local machine) `~/.ssh/id_rsa.pub` to your remote machine to the authorized keys file.  
+(Create the authorized_keys file as follows:)  
 
 ```
 sudo mkdir /home/my_cool_username/.ssh/
 sudo nano /home/my_cool_username/.ssh/authorized_keys
 ```
 
-Copy in your public key, save, and quit.
+Copy in your public key, save, and quit.  
+**Save file in _nano_ editor:  Ctrl-o** then Enter when asked for the file name.    
+**Exit file from _nano_ editor: Ctrl-x**  
 
 Don't log out until you verify that this has worked! Open a new shell on your local machine. You should be able to log in to your remote machine like this:
 
