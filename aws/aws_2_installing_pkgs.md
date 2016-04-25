@@ -88,12 +88,22 @@ Don't log out until you verify that this has worked! Open a new shell on your lo
 ssh my_cool_username@123.234.123.234
 ```
 
-Nobody wants to type all that. Edit your `~/.ssh/config`:
+Nobody wants to type all that. Edit your `~/.ssh/config` (on your local machine):
 
 ```
 Host my_cool_machine
 Hostname 123.234.123.234
 User my_cool_username
+```
+**My example:**  
+```
+Host myaws
+     HostName 54.172.80.95
+     User reshama
+```
+**My example:**  
+```
+reshama$ ssh myaws
 ```
 
 Now you can log in to your remote machine with `ssh my_cool_machine`.
@@ -104,6 +114,11 @@ Now you can log in to your remote machine with `ssh my_cool_machine`.
 ```
 scp cool_file.png my_cool_machine:~
 ```
+**My Example:**  
+```
+reshama$ scp trysql.py myaws:~
+```
+Note:  check your user account on AWS.  The file was copied there~  
 
 
 #### Very Web
