@@ -27,13 +27,13 @@ ubuntu@ip-172-31-60-68:~$ sudo apt-get update
 ---
 
 ####Install `pip` 
-Accept all the suggestions it makes, and hit `Enter` and watch it go.  It will take some time for this to finish installing.  
+Accept all the suggestions it makes, and hit `Enter` and watch it go.  It will take some time for this to finish installing.    
+```
+ubuntu@ip-172-31-60-68:~$ sudo apt-get install python-pip
+```  
 > Fun Fact:  Did you know that when you see a yes/no prompt in this format `[Y]/n`, that you can simply hit `Enter` and it will assume you mean the default(capital and bracketed) option?  No need to type a capital Y.  (time saved can be spent on other things.)  
 For `apt-get`, you can alsojust add the `-y` flag.  
 
-```
-ubuntu@ip-172-31-60-68:~$ sudo apt-get install python-pip
-```
 
 ####Add user
 ```
