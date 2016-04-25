@@ -89,9 +89,8 @@ reshama$ cat id_rsa.pub
 
 3) On your AWS machine:  
 after you run:
-```
-sudo nano /home/reshama/.ssh/authorized_keys
-```
+$ sudo nano /home/reshama/.ssh/authorized_keys
+
 To paste in the current window:  Command v
 then hit  
 ctrl o (to save)  
@@ -100,9 +99,12 @@ ctrl x (to exit)
 ```
 
 Don't log out until you verify that this has worked! Open a new shell on your local machine. You should be able to log in to your remote machine like this:
-
 ```
 ssh my_cool_username@123.234.123.234
+```
+**My example:**  
+```
+reshama$ ssh reshama@54.172.80.95
 ```
 
 --
