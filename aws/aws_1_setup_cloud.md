@@ -92,7 +92,7 @@ reshama$ ls *id_rsa*
 reshama$ 
 ```  
 If you do not have them, generate them with `$ ssh-keygen -t rsa`    
-(When asked where to save, the default location is correct (ex: /Users/username/.ssh/id_rsa) : so hit Enter)  
+(When asked where to save, the default location is correct (ex: /Users/username/.ssh/id_rsa) : so hit Enter)
 
 --- 
 
@@ -108,6 +108,7 @@ You can then close this tab.
 Back to other AWS tab.  Scroll down and select **View Instances**
 
 On your EC2 Dashboard, you'll soon be able to find the IP address of your new cloud computer!  
+**Note:  It may take a few minutes for the instance to initialize.**
 
 ###On Your Local Machine  
 
