@@ -22,8 +22,7 @@ sudo apt-get install python-pip
 ubuntu@ip-172-31-60-68:~$ sudo apt-get update
 ```
 ####[`apt-get` Package Management Tool](https://help.ubuntu.com/12.04/serverguide/apt-get.html) 
-
-
+Read more about `apt-get` at above link.  
 ---
 
 ####Install `pip` 
