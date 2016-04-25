@@ -53,7 +53,7 @@ sudo apt-get install git emacs
 ```
 ubuntu@ip-172-31-60-68:/home$ sudo adduser reshama
 ```
-**Note:  pick a password (save it in an easy-to-find place)**; enter through all the other questions (name fields, etc.)  
+**Note:  pick a password (save it in an easy-to-find place !! )**; enter through all the other questions (name fields, etc.)  
 
 ####User privileges  
 Make yourself special by granting yourself root privileges: type `sudo visudo`. This will open up _nano_ (a text editor) to edit the sudoers file. Find the line that says `root    ALL=(ALL:ALL) ALL`. Give yourself a line beneath that which says `[username] ALL=(ALL:ALL) ALL`. Save by hitting Ctrl-o and then Enter when asked for the file name. Exit _nano_ with Ctrl-x.
