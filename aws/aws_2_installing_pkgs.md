@@ -66,6 +66,10 @@ reshama  ALL=(ALL:ALL) ALL
 **Save file in _nano_ editor:  Ctrl-o** then Enter when asked for the file name.    
 **Exit file from _nano_ editor: Ctrl-x**  
 
+----
+
+###Setting up User Account
+
 Now you have a user account, but you can't just log in with a password. Passwords aren't secure enough. Copy your public key (from your local machine) `~/.ssh/id_rsa.pub` to your remote machine to the authorized keys file (Create the authorized_keys file as follows:)
 
 ```
