@@ -139,11 +139,12 @@ reshama$ scp trysql.py myaws:~
 ```
 Note:  check your user account on AWS.  The file was copied there!!! :clap:
 
+---
 
-#### Very Web
+####Other Applications:  Very Web
 
 ```
-python -m SimpleHTTPServer
+reshama@ip-172-31-26-198:~$ python -m SimpleHTTPServer
 ```
 
 ---
