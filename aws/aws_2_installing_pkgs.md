@@ -21,9 +21,16 @@ sudo apt-get install python-pip
 ```
 ubuntu@ip-172-31-60-68:~$ sudo apt-get update
 ```
+####[`apt-get` Package Management Tool](https://help.ubuntu.com/12.04/serverguide/apt-get.html) 
+
+
 ---
 
-####Install `pip`
+####Install `pip` 
+Accept all the suggestions it makes, and hit `Enter` and watch it go.  It will take some time for this to finish installing.  
+> Fun Fact:  Did you know that when you see a yes/no prompt in this format `[Y]/n`, that you can simply hit `Enter` and it will assume you mean the default(capital and bracketed) option?  No need to type a capital Y.  (time saved can be spent on other things.)  
+For `apt-get`, you can alsojust add the `-y` flag.  
+
 ```
 ubuntu@ip-172-31-60-68:~$ sudo apt-get install python-pip
 ```
