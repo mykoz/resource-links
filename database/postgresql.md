@@ -1,4 +1,4 @@
-##PostgreSQL  
+#PostgreSQL  
 
 [PostgreSQL (Ubuntu)](https://help.ubuntu.com/community/PostgreSQL)  
 [PostgreSQL Instructions (by Digital Ocean)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)  
@@ -9,15 +9,11 @@
 
 ---
 
-## PostgreSQL setup and loading data
-
-
 ### Install PostgreSQL
 
-(Mostly following the [Ubuntu directions](https://help.ubuntu.com/community/PostgreSQL).)
-
 ```bash
-sudo apt-get install postgresql postgresql-contrib
+$ sudo apt-get update
+$ sudo apt-get install postgresql postgresql-contrib
 ```
 
 This will install _and start up_ Postgres. You can check:
