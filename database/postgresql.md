@@ -191,13 +191,15 @@ postgres-# \l
 
 postgres-# 
 ```
+
 ####Check what relationships (tables) you have so far with `\d`
 >my example
-```sql
+```console
 postgres-# \d
 No relations found.
 postgres-# 
 ```
+
 ---
 
 ### Make a database with `CREATE DATABASE database_name;`
