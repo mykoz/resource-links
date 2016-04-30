@@ -157,12 +157,7 @@ postgres=#
 ```console
 postgres=# \q
 postgres@ip-172-31-61-173:~$ 
-```
-
-```console
-postgres=# \q
-postgres@ip-172-31-61-173:~$ 
-```
+```  
 
 ####Create a new role (a new user) by typing `createuser --interactive`
 >my example
