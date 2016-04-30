@@ -174,7 +174,7 @@ postgres@ip-172-31-61-173:~$
 ```
 ####Check what databases you have so far with `\l`
 >my example
-```sql
+```
 postgres-# \l
                                   List of databases
    Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
