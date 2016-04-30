@@ -49,19 +49,10 @@ sudo -u postgres psql
 sudo -u postgres createdb my_user_name
 ```
 
-Now you can go to town with just `psql`! Explore a little with `help`, `\?`, `\l`, and `\d`.
-
-
-### Make a database with `CREATE DATABASE database_name;`
-
-(*Not case-sensitive:*  case doesn't matter, but to make it clear what's a SQL word and what's chosen by us I'll follow the ugly SQL convention of capitalizing like a crazy person.)
-
-Let's make a database called `endor`.
-
-```sql
-CREATE DATABASE endor;
-```
 ---
+### Get List of Commands (help) with `?`
+
+Explore a little with `help`, `\?`
 
 ####You can get a Postgres prompt immediately by typing `psql`
 ```
@@ -105,11 +96,22 @@ postgres-# \l
 
 postgres-# 
 ```
-####Check what relationships you have so far with `\d`
+####Check what relationships (tables) you have so far with `\d`
 ```
 postgres-# \d
 No relations found.
 postgres-# 
+```
+---
+
+### Make a database with `CREATE DATABASE database_name;`
+
+(*Not case-sensitive:*  case doesn't matter, but to make it clear what's a SQL word and what's chosen by us I'll follow the ugly SQL convention of capitalizing like a crazy person.)
+
+Let's make a database called `endor`.
+
+```sql
+CREATE DATABASE endor;
 ```
 ---
 
