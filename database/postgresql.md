@@ -65,6 +65,17 @@ Let's make a database called `endor`.
 ```sql
 CREATE DATABASE endor;
 ```
+---
+
+####You can get a Postgres prompt immediately by typing `psql`
+```
+ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
+postgres@ip-172-31-61-173:~$ psql
+psql (9.3.12)
+Type "help" for help.
+
+postgres=# 
+```
 
 Use `\d` to see that there are not yet any tables (relations) in the database. So let's create one.
 
