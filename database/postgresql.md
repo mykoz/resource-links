@@ -4,8 +4,6 @@
 [PostgreSQL (Instructions by Digital Ocean)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)  
  * is a powerful object-relational database management system, provided under a flexible BSD-style license  
  * contains many advanced features, is very fast and standards compliant. 
- 
-(schedule w4_d2)
 
 ---
 
