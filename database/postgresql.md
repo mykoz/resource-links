@@ -38,8 +38,9 @@ The installation procedure created a user account called `postgres` that is asso
 ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
 postgres@ip-172-31-61-173:~$ 
 ```
+###Create user account on postgres
 
-Installing Postgres also created a `postgres` user on your computer. But we want to be able to log in as ourselves. So:
+We want to be able to log in as ourselves. So:
 
 ```bash
 sudo -u postgres createuser --superuser my_user_name
