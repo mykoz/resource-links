@@ -187,7 +187,6 @@ postgres-# \l
            |          |          |             |             | postgres=CTc/postgres
  test1     | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
 (5 rows)
-
 postgres-# 
 ```
 
