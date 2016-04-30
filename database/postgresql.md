@@ -115,11 +115,10 @@ Query Buffer
   \s [FILE]              display history or save it to file
   \w FILE                write query buffer to file
 :
-```
+```  
 
+####Get list of database commands with `\help` 
 >my example
-Get list of database commands with `\help` 
-
 ```console
 postgres-# \help
 Available help:
