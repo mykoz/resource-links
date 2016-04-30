@@ -105,8 +105,6 @@ Type "help" for help.
 postgres=# 
 ```
 
-Use `\d` to see that there are not yet any tables (relations) in the database. So let's create one.
-
 ####Exit out of the PostgreSQL prompt by typing `\q`
 ```
 postgres=# \q
