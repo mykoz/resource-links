@@ -79,9 +79,10 @@ postgres=#
 
 Use `\d` to see that there are not yet any tables (relations) in the database. So let's create one.
 
-####Exit out of the PostgreSQL prompt by typing:
+####Exit out of the PostgreSQL prompt by typing `\q`
 ```
-\q
+postgres=# \q
+postgres@ip-172-31-61-173:~$ 
 ```
 
 ### Make a table
