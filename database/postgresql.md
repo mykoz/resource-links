@@ -52,13 +52,9 @@ sudo -u postgres createdb my_user_name
 Now you can go to town with just `psql`! Explore a little with `help`, `\?`, `\l`, and `\d`.
 
 
-### Make a database
+### Make a database with `CREATE DATABASE database_name;`
 
-Check what databases you have so far with `\l`.
-
-You can create a new database with `CREATE DATABASE database_name;`.
-
-Case doesn't matter, but to make it clear what's a SQL word and what's chosen by us I'll follow the ugly SQL convention of capitalizing like a crazy person.
+(*Not case-sensitive:*  case doesn't matter, but to make it clear what's a SQL word and what's chosen by us I'll follow the ugly SQL convention of capitalizing like a crazy person.)
 
 Let's make a database called `endor`.
 
