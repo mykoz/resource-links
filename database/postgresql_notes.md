@@ -1,5 +1,6 @@
 ##Misc Postgres Notes
 
+[How to Thoroughly Purge and Reinstall PostgreSQL on Ubuntu](http://stackoverflow.com/questions/2748607/how-to-thoroughly-purge-and-reinstall-postgresql-on-ubuntu)
 
 ####Check to see if PostgreSQL is running
 ```
