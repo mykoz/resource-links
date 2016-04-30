@@ -15,11 +15,12 @@
 $ sudo apt-get update
 $ sudo apt-get install postgresql postgresql-contrib
 ```
+This will install _and start up_ Postgres. 
 
-This will install _and start up_ Postgres. You can check:
+### Getting into Postgres
 
 ```bash
-ps awx | grep post
+$ ps awx | grep post
 ```
 
 On Ubuntu, servers are started and stopped mostly with [upstart](http://upstart.ubuntu.com/). Try:
@@ -28,6 +29,12 @@ On Ubuntu, servers are started and stopped mostly with [upstart](http://upstart.
 sudo service postgresql status
 sudo service postgresql stop
 sudo service postgresql start
+```
+The installation procedure created a user account called `postgres` that is associated with the default Postgres role. In order to use Postgres, we'll need to log into that account. You can do that by typing:  
+
+```
+ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
+postgres@ip-172-31-61-173:~$ 
 ```
 
 Installing Postgres also created a `postgres` user on your computer. But we want to be able to log in as ourselves. So:
