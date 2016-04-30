@@ -8,18 +8,33 @@
 ---
 ## Setting up
 
-#### Install PostgreSQL
+#### Install _and start up_ Postgres
 
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install postgresql postgresql-contrib
 ```
-This will install _and start up_ Postgres. 
+```
+ubuntu@ip-172-31-61-173:~$ sudo apt-get install postgresql postgresql-contrib
+```
 
-#### Searching for 'Postgres'
+####Check Postgres is installed
 
 ```bash
 $ ps awx | grep post
+```
+
+####Check Postgres is running
+```bash
+ubuntu@ip-172-31-61-173:~$ ps -C postgres
+  PID TTY          TIME CMD
+  694 ?        00:00:00 postgres
+  696 ?        00:00:00 postgres
+  697 ?        00:00:00 postgres
+  698 ?        00:00:00 postgres
+  699 ?        00:00:00 postgres
+  700 ?        00:00:00 postgres
+ubuntu@ip-172-31-61-173:~$ 
 ```
 
 On Ubuntu, servers are started and stopped mostly with [upstart](http://upstart.ubuntu.com/). Try:
@@ -29,6 +44,26 @@ sudo service postgresql status
 sudo service postgresql stop
 sudo service postgresql start
 ```
+```bash
+ubuntu@ip-172-31-61-173:~$ ps -C postgres
+  PID TTY          TIME CMD
+  694 ?        00:00:00 postgres
+  696 ?        00:00:00 postgres
+  697 ?        00:00:00 postgres
+  698 ?        00:00:00 postgres
+  699 ?        00:00:00 postgres
+  700 ?        00:00:00 postgres
+ubuntu@ip-172-31-61-173:~$ sudo service postgresql status
+9.3/main (port 5432): online
+ubuntu@ip-172-31-61-173:~$ sudo service postgresql stop
+ * Stopping PostgreSQL 9.3 database server                                         [ OK ] 
+ubuntu@ip-172-31-61-173:~$ sudo service postgresql status
+9.3/main (port 5432): down
+ubuntu@ip-172-31-61-173:~$ ps -C postgres
+  PID TTY          TIME CMD
+ubuntu@ip-172-31-61-173:~$ 
+```
+
 ####Logging in as `postgres` user
 
 The installation procedure created a user account called `postgres` that is associated with the default Postgres role. In order to use Postgres, we'll need to log into that account. You can do that by typing:  
