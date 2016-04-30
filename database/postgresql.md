@@ -108,9 +108,13 @@ postgres-# \l
 (5 rows)
 
 postgres-# 
-
 ```
-
+####Check what relationships you have so far with `\d`
+```
+postgres-# \d
+No relations found.
+postgres-# 
+```
 ---
 
 ### Make a table
