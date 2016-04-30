@@ -14,6 +14,7 @@
 $ sudo apt-get update
 $ sudo apt-get install postgresql postgresql-contrib
 ```
+>my example
 ```
 ubuntu@ip-172-31-61-173:~$ sudo apt-get install postgresql postgresql-contrib
 ```
@@ -25,6 +26,7 @@ $ ps awx | grep post
 ```
 
 ####Check Postgres is running
+>my example
 ```bash
 ubuntu@ip-172-31-61-173:~$ ps -C postgres
   PID TTY          TIME CMD
@@ -44,6 +46,7 @@ sudo service postgresql status
 sudo service postgresql stop
 sudo service postgresql start
 ```
+>my example
 ```bash
 ubuntu@ip-172-31-61-173:~$ ps -C postgres
   PID TTY          TIME CMD
@@ -86,7 +89,7 @@ sudo -u postgres createdb my_user_name
 ```
 ---
 ### Get List of Commands (help) with `\?` and `\help`
-
+>my example
 ```sql
 postgres-# \?
 General
@@ -106,6 +109,7 @@ Query Buffer
   \w FILE                write query buffer to file
 :
 ```
+>my example
 Get list of database commands with `\help`
 ```sql
 postgres-# \help
@@ -131,6 +135,7 @@ Available help:
 ---
 
 ####You can get a Postgres prompt immediately by typing `psql`
+>my example
 ```
 ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
 postgres@ip-172-31-61-173:~$ psql
@@ -141,12 +146,14 @@ postgres=#
 ```
 
 ####Exit out of the PostgreSQL prompt by typing `\q`
+>my example
 ```
 postgres=# \q
 postgres@ip-172-31-61-173:~$ 
 ```
 
 ####Create a new role (a new user) by typing `createuser --interactive`
+>my example
 ```
 postgres@ip-172-31-61-173:~$ createuser --interactive
 Enter name of role to add: rachel
@@ -154,6 +161,7 @@ Shall the new role be a superuser? (y/n) y
 postgres@ip-172-31-61-173:~$ 
 ```
 ####Check what databases you have so far with `\l`
+>my example
 ```bash
 postgres-# \l
                                   List of databases
@@ -171,6 +179,7 @@ postgres-# \l
 postgres-# 
 ```
 ####Check what relationships (tables) you have so far with `\d`
+>my example
 ```
 postgres-# \d
 No relations found.
