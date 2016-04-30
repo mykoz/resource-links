@@ -6,8 +6,9 @@
  * contains many advanced features, is very fast and standards compliant
 
 ---
+## Setting up
 
-### Install PostgreSQL
+#### Install PostgreSQL
 
 ```bash
 $ sudo apt-get update
@@ -15,7 +16,7 @@ $ sudo apt-get install postgresql postgresql-contrib
 ```
 This will install _and start up_ Postgres. 
 
-### Searching for 'Postgres'
+#### Searching for 'Postgres'
 
 ```bash
 $ ps awx | grep post
@@ -28,7 +29,7 @@ sudo service postgresql status
 sudo service postgresql stop
 sudo service postgresql start
 ```
-###Logging in as `postgres` user
+####Logging in as `postgres` user
 
 The installation procedure created a user account called `postgres` that is associated with the default Postgres role. In order to use Postgres, we'll need to log into that account. You can do that by typing:  
 
@@ -36,7 +37,7 @@ The installation procedure created a user account called `postgres` that is asso
 ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
 postgres@ip-172-31-61-173:~$ 
 ```
-###Create user account on postgres
+####Create user account on postgres
 
 We want to be able to log in as ourselves. So:
 
@@ -48,11 +49,51 @@ sudo -u postgres psql
 # exit psql...
 sudo -u postgres createdb my_user_name
 ```
+---
+### Get List of Commands (help) with `\?` and `\help`
+
+```sql
+postgres-# \?
+General
+  \copyright             show PostgreSQL usage and distribution terms
+  \g [FILE] or ;         execute query (and send results to file or |pipe)
+  \gset [PREFIX]         execute query and store results in psql variables
+  \h [NAME]              help on syntax of SQL commands, * for all commands
+  \q                     quit psql
+  \watch [SEC]           execute query every SEC seconds
+
+Query Buffer
+  \e [FILE] [LINE]       edit the query buffer (or file) with external editor
+  \ef [FUNCNAME [LINE]]  edit function definition with external editor
+  \p                     show the contents of the query buffer
+  \r                     reset (clear) the query buffer
+  \s [FILE]              display history or save it to file
+  \w FILE                write query buffer to file
+:
+```
+Get list of database commands with `\help`
+```sql
+postgres-# \help
+Available help:
+  ABORT                            DEALLOCATE
+  ALTER AGGREGATE                  DECLARE
+  ALTER COLLATION                  DELETE
+  ALTER CONVERSION                 DISCARD
+  ALTER DATABASE                   DO
+  ALTER DEFAULT PRIVILEGES         DROP AGGREGATE
+  ALTER DOMAIN                     DROP CAST
+  ALTER EVENT TRIGGER              DROP COLLATION
+  ALTER EXTENSION                  DROP CONVERSION
+  ALTER FOREIGN DATA WRAPPER       DROP DATABASE
+  ALTER FOREIGN TABLE              DROP DOMAIN
+  ALTER FUNCTION                   DROP EVENT TRIGGER
+  ALTER GROUP                      DROP EXTENSION
+  ALTER INDEX                      DROP FOREIGN DATA WRAPPER
+  ALTER LANGUAGE                   DROP FOREIGN TABLE
+  ALTER LARGE OBJECT               DROP FUNCTION
+```
 
 ---
-### Get List of Commands (help) with `?`
-
-Explore a little with `help`, `\?`
 
 ####You can get a Postgres prompt immediately by typing `psql`
 ```
