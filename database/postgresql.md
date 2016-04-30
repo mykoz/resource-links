@@ -17,7 +17,7 @@ $ sudo apt-get install postgresql postgresql-contrib
 ```
 This will install _and start up_ Postgres. 
 
-### Getting into Postgres
+### Searching for 'Postgres'
 
 ```bash
 $ ps awx | grep post
