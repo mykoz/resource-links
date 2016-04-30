@@ -171,7 +171,8 @@ postgres@ip-172-31-61-173:~$ createuser --interactive
 Enter name of role to add: rachel
 Shall the new role be a superuser? (y/n) y
 postgres@ip-172-31-61-173:~$ 
-```
+```  
+
 ####Check what databases you have so far with `\l`
 >my example
 ```
