@@ -24,6 +24,12 @@ ubuntu@ip-172-31-61-173:~$ sudo apt-get install postgresql postgresql-contrib
 ```bash
 $ ps awx | grep post
 ```
+>my example
+```bash
+ubuntu@ip-172-31-61-173:~$ ps awx | grep post
+  839 pts/0    S+     0:00 grep --color=auto post
+ubuntu@ip-172-31-61-173:~$ 
+```
 
 ####Check Postgres is running
 >my example
