@@ -1,17 +1,17 @@
 
 [Syntax highlighting in markdown](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown)
->```bash
 bash: 
+>```bash
 $ pwd
 ```
 
->```python
 python: 
+>```python
 print "hello world!"
 ```
 
->```sql
 sql: 
+>```sql
 CREATE DATABASE tennis;
 ```
 
