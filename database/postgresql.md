@@ -15,7 +15,7 @@ $ sudo apt-get update
 $ sudo apt-get install postgresql postgresql-contrib
 ```
 >my example
-```
+```console
 ubuntu@ip-172-31-61-173:~$ sudo apt-get install postgresql postgresql-contrib
 ```
 
@@ -25,7 +25,7 @@ ubuntu@ip-172-31-61-173:~$ sudo apt-get install postgresql postgresql-contrib
 $ ps awx | grep post
 ```
 >my example
-```bash
+```console
 ubuntu@ip-172-31-61-173:~$ ps awx | grep post
   839 pts/0    S+     0:00 grep --color=auto post
 ubuntu@ip-172-31-61-173:~$ 
@@ -33,7 +33,7 @@ ubuntu@ip-172-31-61-173:~$
 
 ####Check Postgres is running
 >my example
-```bash
+```console
 ubuntu@ip-172-31-61-173:~$ ps -C postgres
   PID TTY          TIME CMD
   694 ?        00:00:00 postgres
@@ -53,7 +53,7 @@ sudo service postgresql stop
 sudo service postgresql start
 ```
 >my example
-```bash
+```console
 ubuntu@ip-172-31-61-173:~$ ps -C postgres
   PID TTY          TIME CMD
   694 ?        00:00:00 postgres
@@ -77,7 +77,8 @@ ubuntu@ip-172-31-61-173:~$
 
 The installation procedure created a user account called `postgres` that is associated with the default Postgres role. In order to use Postgres, we'll need to log into that account. You can do that by typing:  
 
-```
+>my example
+```console
 ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
 postgres@ip-172-31-61-173:~$ 
 ```
@@ -96,7 +97,7 @@ sudo -u postgres createdb my_user_name
 ---
 ### Get List of Commands (help) with `\?` and `\help`
 >my example
-```sql
+```bash
 postgres-# \?
 General
   \copyright             show PostgreSQL usage and distribution terms
@@ -105,7 +106,6 @@ General
   \h [NAME]              help on syntax of SQL commands, * for all commands
   \q                     quit psql
   \watch [SEC]           execute query every SEC seconds
-
 Query Buffer
   \e [FILE] [LINE]       edit the query buffer (or file) with external editor
   \ef [FUNCNAME [LINE]]  edit function definition with external editor
@@ -115,9 +115,11 @@ Query Buffer
   \w FILE                write query buffer to file
 :
 ```
+
 >my example
-Get list of database commands with `\help`
-```sql
+Get list of database commands with `\help` 
+
+```console
 postgres-# \help
 Available help:
   ABORT                            DEALLOCATE
@@ -142,7 +144,7 @@ Available help:
 
 ####You can get a Postgres prompt immediately by typing `psql`
 >my example
-```
+```console
 ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
 postgres@ip-172-31-61-173:~$ psql
 psql (9.3.12)
@@ -153,14 +155,19 @@ postgres=#
 
 ####Exit out of the PostgreSQL prompt by typing `\q`
 >my example
+```console
+postgres=# \q
+postgres@ip-172-31-61-173:~$ 
 ```
+
+```console
 postgres=# \q
 postgres@ip-172-31-61-173:~$ 
 ```
 
 ####Create a new role (a new user) by typing `createuser --interactive`
 >my example
-```
+```console
 postgres@ip-172-31-61-173:~$ createuser --interactive
 Enter name of role to add: rachel
 Shall the new role be a superuser? (y/n) y
@@ -168,7 +175,7 @@ postgres@ip-172-31-61-173:~$
 ```
 ####Check what databases you have so far with `\l`
 >my example
-```bash
+```sql
 postgres-# \l
                                   List of databases
    Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
@@ -186,7 +193,7 @@ postgres-#
 ```
 ####Check what relationships (tables) you have so far with `\d`
 >my example
-```
+```sql
 postgres-# \d
 No relations found.
 postgres-# 
