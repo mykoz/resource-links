@@ -30,6 +30,8 @@ sudo service postgresql status
 sudo service postgresql stop
 sudo service postgresql start
 ```
+###Logging in as `postgres` user
+
 The installation procedure created a user account called `postgres` that is associated with the default Postgres role. In order to use Postgres, we'll need to log into that account. You can do that by typing:  
 
 ```
