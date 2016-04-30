@@ -92,6 +92,24 @@ Enter name of role to add: rachel
 Shall the new role be a superuser? (y/n) y
 postgres@ip-172-31-61-173:~$ 
 ```
+####Check what databases you have so far with `\l`
+```bash
+postgres-# \l
+                                  List of databases
+   Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
+-----------+----------+----------+-------------+-------------+-----------------------
+ endor     | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+           |          |          |             |             | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+           |          |          |             |             | postgres=CTc/postgres
+ test1     | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+(5 rows)
+
+postgres-# 
+
+```
 
 ---
 
