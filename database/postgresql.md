@@ -81,7 +81,8 @@ The installation procedure created a user account called `postgres` that is asso
 ```console
 ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
 postgres@ip-172-31-61-173:~$ 
-```
+```  
+
 ####Create user account on postgres
 
 We want to be able to log in as ourselves. So:
