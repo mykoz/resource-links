@@ -144,12 +144,11 @@ Available help:
 
 ####You can get a Postgres prompt immediately by typing `psql`
 >my example
-```console
+```bash
 ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
 postgres@ip-172-31-61-173:~$ psql
 psql (9.3.12)
 Type "help" for help.
-
 postgres=# 
 ```
 
