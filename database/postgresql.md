@@ -85,6 +85,16 @@ postgres=# \q
 postgres@ip-172-31-61-173:~$ 
 ```
 
+####Create a new role (a new user) by typing `createuser --interactive`
+```
+postgres@ip-172-31-61-173:~$ createuser --interactive
+Enter name of role to add: rachel
+Shall the new role be a superuser? (y/n) y
+postgres@ip-172-31-61-173:~$ 
+```
+
+---
+
 ### Make a table
 
 We have to specify the schema of our table, with detail about [data types](http://www.postgresql.org/docs/9.3/static/datatype.html). There are a bunch of data types, but a few are used most commonly.
