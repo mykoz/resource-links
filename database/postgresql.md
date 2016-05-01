@@ -110,21 +110,29 @@ sudo -u postgres psql
 # exit psql...
 sudo -u postgres createdb my_user_name
 ```
+>my example
+```bash
+ubuntu@ip-172-31-61-173:~$ sudo -u postgres createuser --superuser rachel
+ubuntu@ip-172-31-61-173:~$ sudo -u postgres psql
+psql (9.3.12)
+Type "help" for help.
+-
+postgres=# \password rachel
+Enter new password:
+Enter it again:
+postgres=# 
+```
+
 ####Check user list with `du`  
 
 ```bash
-postgres=# \du
+postgres-# \du
                              List of roles
  Role name |                   Attributes                   | Member of 
 -----------+------------------------------------------------+-----------
  postgres  | Superuser, Create role, Create DB, Replication | {}
+ rachel    | Superuser, Create role, Create DB              | {}
  reshama   | Superuser, Create role, Create DB              | {}
-postgres=# 
-```
-####Switch user
-```bash
-sudo su - postgres
-psql -l
 ```
 
 ####Switch user
