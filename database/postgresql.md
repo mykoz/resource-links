@@ -9,14 +9,13 @@
 ## Table of Contents
 
 [A)  Setting up Postgres on Ubuntu](#section-a)  
-[B)  Help Commands for Postgres and SQL Database](#section-b)
+[B)  Help Commands for Postgres and SQL Database](#section-b)  
+[C)  Create a Database](#section-c)
 
 
 ---
 
 ## <a name="section-a"></a>A) Setting up Postgres on Ubuntu
-
-## Setting up
 
 #### Install _and start up_ Postgres
 
@@ -207,7 +206,7 @@ postgres-#
 ```
 
 ---
-## Create a Database
+## <a name="section-c"></a>c) Create a Database
 
 ### Make a database with `CREATE DATABASE database_name;`
 
