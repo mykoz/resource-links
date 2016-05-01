@@ -6,7 +6,8 @@
 [i)  References](#section-i)  
 [A)  Setting up Postgres on Ubuntu](#section-a)  
 [B)  Help Commands for Postgres and SQL Database](#section-b)  
-[C)  Create a Database](#section-c)
+[C)  Database Roles](#section-c)
+[D)  Create a Database](#section-d)
 
 ---
 ## <a name="section-i"></a>i) References
@@ -82,6 +83,9 @@ ubuntu@ip-172-31-61-173:~$ ps -C postgres
   PID TTY          TIME CMD
 ubuntu@ip-172-31-61-173:~$ 
 ```
+
+---
+## <a name="section-c"></a>C) Database Roles
 
 ####Logging in as `postgres` user
 
@@ -207,7 +211,7 @@ postgres-#
 ```
 
 ---
-## <a name="section-c"></a>c) Create a Database
+## <a name="section-d"></a>D) Create a Database
 
 ### Make a database with `CREATE DATABASE database_name;`
 
