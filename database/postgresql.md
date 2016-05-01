@@ -9,8 +9,11 @@
 ## Table of Contents
 
 [A)  Setting up Postgres on Ubuntu](#section-a)
+[B)  Help Commands for Postgres and SQL Database](#section-b)
+
 
 ---
+
 ## <a name="section-a"></a>A) Setting up Postgres on Ubuntu
 
 ## Setting up
@@ -103,6 +106,8 @@ sudo -u postgres psql
 sudo -u postgres createdb my_user_name
 ```
 ---
+## <a name="section-b"></a>b) Help Commands for Postgres and SQL Database
+
 ### Get List of Commands (help) with `\?` and `\help`
 >my example
 ```bash
