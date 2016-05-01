@@ -423,10 +423,15 @@ postgres=#
 
 ---
 
-### Working with baseball data.. 
+### Working with baseball data
+>my example (at ubuntu prompt)
+```console
+ubuntu@ip-172-31-61-173:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-61-173:~$ 
+```
 
-Let's get some data to work with Lahman baseball data..
-
+Let's get some data to work with Lahman baseball data.
 
 ```bash
 wget http://seanlahman.com/files/database/lahman-csv_2014-02-14.zip
@@ -435,7 +440,7 @@ mkdir baseballdata
 unzip lahman-csv_2014-02-14.zip -d baseballdata
 ```
 
-(psql)
+>my example (in psql, at posgres prompt)
 
 ```sql
 CREATE TABLE IF NOT EXISTS AllstarFull (
