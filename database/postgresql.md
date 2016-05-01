@@ -438,4 +438,4 @@ COPY Schools FROM '/home/username/baseballdata/Schools.csv' DELIMITER ',' CSV HE
 ```bash
 endor-# \! clear
 ```
-
+Or use:  ctrl + l  
