@@ -1,17 +1,18 @@
 #PostgreSQL  
-
-[PostgreSQL (Instructions by Ubuntu)](https://help.ubuntu.com/community/PostgreSQL)  
-[PostgreSQL (Instructions by Digital Ocean)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)  
  * is a powerful object-relational database management system, provided under a flexible BSD-style license  
  * contains many advanced features, is very fast and standards compliant
 
----
 ## Table of Contents
-
+[i)  References](#section-i) 
 [A)  Setting up Postgres on Ubuntu](#section-a)  
 [B)  Help Commands for Postgres and SQL Database](#section-b)  
 [C)  Create a Database](#section-c)
 
+---
+## <a name="section-i"></a>i) References
+
+[PostgreSQL (Instructions by Ubuntu)](https://help.ubuntu.com/community/PostgreSQL)  
+[PostgreSQL (Instructions by Digital Ocean)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)  
 
 ---
 
