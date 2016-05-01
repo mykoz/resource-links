@@ -152,6 +152,15 @@ Type "help" for help.
 endor=# 
 ```
 
+####Switch user and database
+```bash
+endor-# \c
+Password for user rachel: 
+SSL connection (cipher: DHE-RSA-AES256-GCM-SHA384, bits: 256)
+You are now connected to database "endor" as user "rachel".
+endor-# 
+```
+
 ---
 ## <a name="section-b"></a>B) Help Commands for Postgres and SQL Database
 
