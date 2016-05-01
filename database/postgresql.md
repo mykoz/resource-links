@@ -451,6 +451,14 @@ Type "help" for help.
 -
 postgres=# 
 ```
+**Connect to baseball database**  
+>my example
+```console
+postgres=# \connect baseball
+You are now connected to database "baseball" as user "postgres".
+baseball=# \d
+No relations found.
+```
 
 ```sql
 CREATE TABLE IF NOT EXISTS AllstarFull (
@@ -491,6 +499,21 @@ CREATE TABLE IF NOT EXISTS Schools (
 );
 
 COPY Schools FROM '/home/username/baseballdata/Schools.csv' DELIMITER ',' CSV HEADER;
+```
+>my example
+```console
+baseball=# select * from salaries;
+baseball=# 
+baseball=# \d
+            List of relations
+ Schema |    Name     | Type  |  Owner   
+--------+-------------+-------+----------
+ public | allstarfull | table | postgres
+ public | salaries    | table | postgres
+ public | schools     | table | postgres
+(3 rows)
+-
+baseball=# 
 ```
 
 ---
