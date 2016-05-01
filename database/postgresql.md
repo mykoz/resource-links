@@ -451,6 +451,7 @@ Type "help" for help.
 -
 postgres=# 
 ```
+
 **Connect to baseball database**  
 >my example
 ```console
