@@ -429,3 +429,12 @@ CREATE TABLE IF NOT EXISTS Schools (
 COPY Schools FROM '/home/username/baseballdata/Schools.csv' DELIMITER ',' CSV HEADER;
 ```
 
+---
+###Useful Commands  
+
+####Clear screen `\! clear`
+>my example
+```bash
+endor-# \! clear
+```
+
