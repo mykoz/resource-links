@@ -8,7 +8,7 @@
 ---
 ## Table of Contents
 
-[A)  Setting up Postgres on Ubuntu](#section-a)
+[A)  Setting up Postgres on Ubuntu](#section-a)  
 [B)  Help Commands for Postgres and SQL Database](#section-b)
 
 
