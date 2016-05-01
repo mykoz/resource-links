@@ -363,6 +363,7 @@ And finally, you can drop a whole table:
 DROP TABLE ewoks;
 ```
 
+---
 
 ### Loading data from a file
 
@@ -391,6 +392,36 @@ COPY ewoks FROM '/path/to/ewoks.csv' DELIMITER ',' CSV HEADER;
 ```
 
 Verify success with `SELECT`.
+
+>my example
+```bash
+postgres=# \d
+No relations found.
+postgres=# select * from ewoks;
+ERROR:  relation "ewoks" does not exist
+LINE 1: select * from ewoks;
+                      ^
+postgres=# copy ewoks from '/home/ubuntu/ewoks.csv' delimiter ',' csv header;
+ERROR:  relation "ewoks" does not exist
+postgres=# create table ewoks (
+postgres(# id serial primary key,
+postgres(# name text,
+postgres(# age int,
+postgres(# accuracy double precision
+postgres(# );
+CREATE TABLE
+postgres=# copy ewoks from '/home/ubuntu/ewoks.csv' delimiter ',' csv header;
+COPY 1
+postgres=# select * from ewoks;
+ id |  name  | age | accuracy 
+----+--------+-----+----------
+  1 | Wicket |   8 |      0.9
+(1 row)
+-
+postgres=# 
+```
+
+---
 
 ### Working with baseball data.. 
 
