@@ -3,7 +3,7 @@
  * contains many advanced features, is very fast and standards compliant
 
 ## Table of Contents
-[i)  References](#section-i) 
+[i)  References](#section-i)  
 [A)  Setting up Postgres on Ubuntu](#section-a)  
 [B)  Help Commands for Postgres and SQL Database](#section-b)  
 [C)  Create a Database](#section-c)
