@@ -6,6 +6,13 @@
  * contains many advanced features, is very fast and standards compliant
 
 ---
+## Table of Contents
+
+[A)  Setting up Postgres on Ubuntu](#section-a)
+
+---
+## <a name="section-a"></a>A) Setting up Postgres on Ubuntu
+
 ## Setting up
 
 #### Install _and start up_ Postgres
