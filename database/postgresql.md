@@ -44,6 +44,9 @@ ubuntu@ip-172-31-61-173:~$
 ```
 
 ####Check Postgres is running
+```bash
+$ ps -C postgres
+```
 >my example
 ```console
 ubuntu@ip-172-31-61-173:~$ ps -C postgres
