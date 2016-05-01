@@ -106,7 +106,7 @@ sudo -u postgres psql
 sudo -u postgres createdb my_user_name
 ```
 ---
-## <a name="section-b"></a>b) Help Commands for Postgres and SQL Database
+## <a name="section-b"></a>B) Help Commands for Postgres and SQL Database
 
 ### Get List of Commands (help) with `\?` and `\help`
 >my example
