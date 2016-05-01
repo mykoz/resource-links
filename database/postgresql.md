@@ -14,7 +14,7 @@
 
 [PostgreSQL (Instructions by Ubuntu)](https://help.ubuntu.com/community/PostgreSQL)  
 [PostgreSQL (Instructions by Digital Ocean)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-14-04)  
-
+[How To Use Roles and Manage Grant Permissions in PostgreSQL on a VPS (Digital Ocean)](https://www.digitalocean.com/community/tutorials/how-to-use-roles-and-manage-grant-permissions-in-postgresql-on-a-vps--2)
 ---
 
 ## <a name="section-a"></a>A) Setting up Postgres on Ubuntu
@@ -119,6 +119,11 @@ postgres=# \du
  postgres  | Superuser, Create role, Create DB, Replication | {}
  reshama   | Superuser, Create role, Create DB              | {}
 postgres=# 
+```
+####Switch user
+```bash
+sudo su - postgres
+psql -l
 ```
 
 
