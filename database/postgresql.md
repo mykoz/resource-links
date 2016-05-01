@@ -8,7 +8,7 @@
 [B)  Help Commands for Postgres and SQL Database](#section-b)  
 [C)  Database Roles](#section-c)  
 [D)  Create a Database](#section-d)
-
+[E)  Useful Commands](#section-e)
 ---
 ## <a name="section-i"></a>i) References
 
@@ -430,7 +430,7 @@ COPY Schools FROM '/home/username/baseballdata/Schools.csv' DELIMITER ',' CSV HE
 ```
 
 ---
-###Useful Commands  
+## <a name="section-e"></a>E) Useful Commands
 
 ####Clear screen `\! clear`
 >my example
