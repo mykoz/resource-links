@@ -502,3 +502,12 @@ COPY Schools FROM '/home/username/baseballdata/Schools.csv' DELIMITER ',' CSV HE
 endor-# \! clear
 ```
 Or use:  ctrl + l  
+
+####Connect to a database with `\connect`
+>my example
+```console
+postgres=# \connect baseball
+You are now connected to database "baseball" as user "postgres".
+baseball=# \d
+No relations found.
+```
