@@ -127,6 +127,19 @@ sudo su - postgres
 psql -l
 ```
 
+####Switch user
+Code:     `psql -U user_name -d database_name -h 127.0.0.1 -W`  
+Example:  `psql -U rachel -d endor -h 127.0.0.1 -W`
+
+>my example
+```console
+ubuntu@ip-172-31-61-173:~$ psql -U rachel -d endor -h 127.0.0.1 -W
+Password for user rachel: 
+psql (9.3.12)
+SSL connection (cipher: DHE-RSA-AES256-GCM-SHA384, bits: 256)
+Type "help" for help.
+endor=# 
+```
 
 ---
 ## <a name="section-b"></a>B) Help Commands for Postgres and SQL Database
