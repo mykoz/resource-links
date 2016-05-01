@@ -374,6 +374,15 @@ Make a file `ewoks.csv`:
 ID,name,years,acc
 1,Wicket,8,0.9
 ```
+>my example
+```console
+ubuntu@ip-172-31-61-173:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-61-173:~$ ls -Glpt
+total 4
+-rw-r--r-- 1 root 32 May  1 15:58 ewoks.csv
+ubuntu@ip-172-31-61-173:~$ 
+```
 
 Postgres can handle CSV input. To load it:
 
