@@ -171,19 +171,19 @@ postgres@ip-172-31-61-173:~$
 ####Check what databases you have so far with `\l`
 >my example
 ```
-postgres-# \l
+postgres=# \l
                                   List of databases
    Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges   
 -----------+----------+----------+-------------+-------------+-----------------------
- endor     | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
  postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
  template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
            |          |          |             |             | postgres=CTc/postgres
  template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
            |          |          |             |             | postgres=CTc/postgres
- test1     | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
-(5 rows)
-postgres-# 
+(3 rows)
+postgres=# \d
+No relations found.
+postgres=# 
 ```
 
 ####Check what relationships (tables) you have so far with `\d`
@@ -219,6 +219,32 @@ CREATE TABLE ewoks (
     accuracy DOUBLE PRECISION
 );
 ```
+
+>my example
+```sql
+postgres=# CREATE DATABASE endor;
+CREATE DATABASE
+postgres=# \d
+No relations found.
+postgres=# CREATE TABLE ewoks (
+postgres(# id SERIAL PRIMARY KEY,
+postgres(# name TEXT,
+postgres(# age INT,
+postgres(# accuracy DOUBLE PRECISION
+postgres(# );
+CREATE TABLE
+postgres=# \d
+              List of relations
+ Schema |     Name     |   Type   |  Owner   
+--------+--------------+----------+----------
+ public | ewoks        | table    | postgres
+ public | ewoks_id_seq | sequence | postgres
+(2 rows)
+postgres=# 
+```
+
+
+
 
 Now you can see that you have a table with `\d`. And you can see what's in it like this:
 
