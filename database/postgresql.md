@@ -109,6 +109,19 @@ sudo -u postgres psql
 # exit psql...
 sudo -u postgres createdb my_user_name
 ```
+####Check user list with `du`  
+
+```bash
+postgres=# \du
+                             List of roles
+ Role name |                   Attributes                   | Member of 
+-----------+------------------------------------------------+-----------
+ postgres  | Superuser, Create role, Create DB, Replication | {}
+ reshama   | Superuser, Create role, Create DB              | {}
+postgres=# 
+```
+
+
 ---
 ## <a name="section-b"></a>B) Help Commands for Postgres and SQL Database
 
