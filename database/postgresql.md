@@ -441,6 +441,16 @@ unzip lahman-csv_2014-02-14.zip -d baseballdata
 ```
 
 >my example (in psql, at posgres prompt)
+```console
+ubuntu@ip-172-31-61-173:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-61-173:~$ sudo -i -u postgres
+postgres@ip-172-31-61-173:~$ psql
+psql (9.3.12)
+Type "help" for help.
+-
+postgres=# 
+```
 
 ```sql
 CREATE TABLE IF NOT EXISTS AllstarFull (
