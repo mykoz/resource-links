@@ -195,6 +195,7 @@ postgres-#
 ```
 
 ---
+## Create a Database
 
 ### Make a database with `CREATE DATABASE database_name;`
 
