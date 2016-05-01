@@ -221,12 +221,20 @@ Type "help" for help.
 postgres=# 
 ```
 
-####Exit out of the PostgreSQL prompt by typing `\q`
+####Exit out of the 'postgres=#' prompt by typing `\q`
 >my example
 ```console
 postgres=# \q
 postgres@ip-172-31-61-173:~$ 
 ```  
+####Exit out of Postgres
+>my example
+```console
+postgres@ip-172-31-61-173:~$ exit
+logout
+ubuntu@ip-172-31-61-173:~$ 
+```
+
 
 ####Create a new role (a new user) by typing `createuser --interactive`
 >my example
