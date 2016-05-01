@@ -250,8 +250,16 @@ Now you can see that you have a table with `\d`. And you can see what's in it li
 
 ```sql
 SELECT * FROM ewoks;
-```
+```  
 
+>my example
+```sql
+postgres=# SELECT * FROM ewoks;
+ id | name | age | accuracy 
+----+------+-----+----------
+(0 rows)
+postgres=# 
+```  
 
 ### Manual data loading / removing
 
