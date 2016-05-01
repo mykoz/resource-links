@@ -6,7 +6,7 @@
 [i)  References](#section-i)  
 [A)  Setting up Postgres on Ubuntu](#section-a)  
 [B)  Help Commands for Postgres and SQL Database](#section-b)  
-[C)  Database Roles](#section-c)
+[C)  Database Roles](#section-c)  
 [D)  Create a Database](#section-d)
 
 ---
