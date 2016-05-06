@@ -12,7 +12,7 @@
 
 [D3 Cheat Sheet](http://www.jeromecukier.net/wp-content/uploads/2012/10/d3-cheat-sheet.pdf)
 
-Yep, bookmark it!
+Yep, bookmark them!
 
 ---
 
