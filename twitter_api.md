@@ -3,9 +3,12 @@
 ####Set up configuration file
 Tokens and keys should be kept in `.twitter_config` file.  (Tokens and keys are variables that contains the user credentials to access Twitter API.)
 
+> Checking to see if I have a config file.  If not, I will create one.
 ```bash
 reshama$ pwd
 /Users/reshamashaikh
+reshama$ ls .twitter_config 
+ls: .twitter_config: No such file or directory
 reshama$ 
 ```
 
@@ -19,7 +22,7 @@ consumer_secret= '9LL1dgFgmGD3sSm8fOZEoMlY4yJ5PFJG1CaNBI2eNSB3jfNwJk'
 END
 ```
 
-Check that the `.twitter_config` file is there
+Verify that the `.twitter_config` file is there
 ```console
 reshama$ cat .twitter_config
 [default]
