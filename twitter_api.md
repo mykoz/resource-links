@@ -9,7 +9,7 @@ reshama$ pwd
 reshama$ 
 ```
 
-# 
+```console
 cat > ~/.twitter_config << END
 [default]
 oauth_token= '49013575-cR7uawlCRvifDEt9u8wFOK2Ir48xc7PDNB14gSmDy'
@@ -17,6 +17,8 @@ oauth_secret= '0cmGhiyvmdnguKiUMVs17KiJAYo1ESu4zCIwNynl9n132'
 consumer_key= 'h3Ncr6xWXXn0TtmNmDQP06mFP'
 consumer_secret= '9LL1dgFgmGD3sSm8fOZEoMlY4yJ5PFJG1CaNBI2eNSB3jfNwJk'
 END
+```
+
 
 
 
