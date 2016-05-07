@@ -1,5 +1,15 @@
 ##Twitter API
 
+###Set up .twitter_config file
+
+```bash
+reshama$ pwd
+/Users/reshamashaikh
+reshama$ 
+```
+
+
+
 [Twitter API Tutorial (last updated 28Feb2016)](http://socialmedia-class.org/twittertutorial.html)  
 
 Application Details  
