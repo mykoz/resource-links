@@ -4,7 +4,8 @@
 [A)  Sign up for Twitter Account](#section-a)  
 [B)  Obtain Twitter API Credentials](#section-b)  
 [C)  Set up Local Configuration File](#section-c)  
-   
+[References](#section-r)
+
 ---
 
 ## <a name="section-a"></a>A) Sign up for Twitter Account  
@@ -15,13 +16,13 @@
 
 ## <a name="section-b"></a>B) Obtain Twitter API Credentials 
 
-[Twitter API Tutorial (last updated 28Feb2016)](http://socialmedia-class.org/twittertutorial.html)  
+[Twitter Apps](https://apps.twitter.com)
 
+**Instructions**   
 Application Details  
 Name:  ds7_twitter
 Description:  Twitter Example for Cohort 7  
 Website:  http://www.reshama.nyc  (even though it no longer exists)  
-
 
 (Note:  You will need to add a mobile phone to your account to get access to API.)
 
@@ -66,5 +67,12 @@ reshama$ cat .twitter_config
 }
 reshama$ 
 ```
+
+---
+
+## <a name="section-r"></a>References  
+
+[Twitter API Tutorial (last updated 28Feb2016)](http://socialmedia-class.org/twittertutorial.html)  
+
 
 
