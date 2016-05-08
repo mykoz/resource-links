@@ -1,5 +1,6 @@
 [Unix File System Permissions](https://en.wikipedia.org/wiki/File_system_permissions)  
-
+ * owner, group, user
+ * read, write, executable
 
 [Syntax highlighting in markdown](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown)  
 bash: 
