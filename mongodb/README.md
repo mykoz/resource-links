@@ -15,6 +15,10 @@ $ brew install mongodb
 
 ####Start MongoDB
 ```bash
+reshama$ mongod
+```
+or
+```bash
 reshama$ brew services start mongodb
 ```
 
