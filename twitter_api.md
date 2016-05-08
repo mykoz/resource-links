@@ -15,8 +15,8 @@ reshama$
 ####Add in your Twitter API credentials using below format
 **Note:  these are my credentials.  They won't work on your computer.**  
 
-```console
-cat > ~/.twitter_config << END
+```bash
+reshama$ cat > ~/.twitter_config << END
 {
  "consumer_key": "1h3Ncr6xWXXn0TtmNmDQP06mFP",
  "consumer_secret": "9LL1dgFgmGD3sSm8fOZEoMlY4yJ5PFJG1CaNBI2eNSB3jfNwJk",
