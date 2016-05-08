@@ -27,7 +27,7 @@ END
 ```
 
 Verify that the `.twitter_config` file is there
-```console
+```bash
 reshama$ cat .twitter_config
 {
  "consumer_key": "1h3Ncr6xWXXn0TtmNmDQP06mFP",
