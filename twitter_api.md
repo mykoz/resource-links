@@ -19,7 +19,7 @@
 [Twitter Apps](https://apps.twitter.com)
 
 Follow the instructions:  
-Application Details   
+_Application Details_     
 **Name:**  ds7_twitter  
 **Description:**  Twitter Example for Cohort 7  
 **Website:**  https://github.com/reshama/reshama.github.io  (placeholder - add your github blog site)  
