@@ -1,11 +1,10 @@
 #Twitter API
 
-## Table of Contents
+### Table of Contents
 [A)  Sign up for Twitter Account](#section-a)  
 [B)  Obtain Twitter API Credentials](#section-b)  
 [C)  Set up Local Configuration File](#section-c)  
    
-
 ---
 
 ## <a name="section-a"></a>A) Sign up for Twitter Account  
