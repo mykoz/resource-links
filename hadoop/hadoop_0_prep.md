@@ -7,7 +7,7 @@ In AWS, start a free tier Ubuntu instance.  The default username for an ubuntu i
 ssh to your machine and follow the instructions below
 
 >my example
-```bash
+```console
 reshama$ ssh myaws
 ```
 ```console
