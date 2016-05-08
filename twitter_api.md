@@ -2,17 +2,19 @@
 
 ## Table of Contents
 [A)  Sign up for Twitter Account](#section-a)  
-[B)  Help Commands for Postgres and SQL Database](#section-b)  
-[C)  Database Roles](#section-c)  
-[D)  Create a Database](#section-d)  
-[E)  Useful Commands](#section-e)  
+[B)  Obtain Twitter API Credentials](#section-b)  
+[C)  Set up Local Configuration File](#section-c)  
+   
 
 ---
 
-## <a name="section-i"></a>A) Sign up for Twitter Account  
+## <a name="section-a"></a>A) Sign up for Twitter Account  
 
 [Twitter.com](https://twitter.com/)
 
+---
+
+## <a name="section-b"></a>B) Obtain Twitter API Credentials 
 
 [Twitter API Tutorial (last updated 28Feb2016)](http://socialmedia-class.org/twittertutorial.html)  
 
@@ -25,11 +27,10 @@ Website:  http://www.reshama.nyc  (even though it no longer exists)
 (Note:  You will need to add a mobile phone to your account to get access to API.)
 
 
-
-
 ---
 
-###Set up configuration file
+## <a name="section-c"></a>C) Set up Local Configuration File
+
 Tokens and keys should be kept in `.twitter_config` file.  (Tokens and keys are variables that contains the user credentials to access Twitter API.)
 
 > Checking to see if I have a config file.  If not, I will create one.
