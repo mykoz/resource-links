@@ -11,25 +11,8 @@ reshama$ ls .twitter_config
 ls: .twitter_config: No such file or directory
 reshama$ 
 ```
-
-```console
-cat > ~/.twitter_config << END
-[default]
-access_token='49013575-cR7uawlCRvifDEt9u8wFOK2Ir48xc7PDNB14gSmDy'
-access_token_secret='0cmGhiyvmdnguKiUMVs17KiJAYo1ESu4zCIwNynl9n132'
-consumer_key='h3Ncr6xWXXn0TtmNmDQP06mFP'
-consumer_secret='9LL1dgFgmGD3sSm8fOZEoMlY4yJ5PFJG1CaNBI2eNSB3jfNwJk'
-END
-```
-
-```console
-cat > ~/.twitter_config << END
-consumer_key=h3Ncr6xWXXn0TtmNmDQP06mFP
-consumer_secret=9LL1dgFgmGD3sSm8fOZEoMlY4yJ5PFJG1CaNBI2eNSB3jfNwJk
-access_token=49013575-cR7uawlCRvifDEt9u8wFOK2Ir48xc7PDNB14gSmDy
-access_token_secret=0cmGhiyvmdnguKiUMVs17KiJAYo1ESu4zCIwNynl9n132
-END
-```
+####Add in your twitter api credentials using below format
+**Note:  these are my credentials.  They won't work on your computer.**  
 
 ```console
 cat > ~/.twitter_config << END
@@ -45,11 +28,12 @@ END
 Verify that the `.twitter_config` file is there
 ```console
 reshama$ cat .twitter_config
-[default]
-oauth_token= '49013575-cR7uawlCRvifDEt9u8wFOK2Ir48xc7PDNB14gSmDy'
-oauth_secret= '0cmGhiyvmdnguKiUMVs17KiJAYo1ESu4zCIwNynl9n132'
-consumer_key= 'h3Ncr6xWXXn0TtmNmDQP06mFP'
-consumer_secret= '9LL1dgFgmGD3sSm8fOZEoMlY4yJ5PFJG1CaNBI2eNSB3jfNwJk'
+{
+ "consumer_key": "1h3Ncr6xWXXn0TtmNmDQP06mFP",
+ "consumer_secret": "9LL1dgFgmGD3sSm8fOZEoMlY4yJ5PFJG1CaNBI2eNSB3jfNwJk",
+ "access_token": "49013575-cR7uawlCRvifDEt9u8wFOK2Ir48xc7PDNB14gSmDy",
+ "access_token_secret": "0cmGhiyvmdnguKiUMVs17KiJAYo1ESu4zCIwNynl9n132"
+}
 reshama$ 
 ```
 
