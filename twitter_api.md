@@ -1,6 +1,22 @@
 ##Twitter API
 
-####Set up configuration file
+
+[Twitter API Tutorial (last updated 28Feb2016)](http://socialmedia-class.org/twittertutorial.html)  
+
+Application Details  
+Name:  ds7_twitter
+Description:  Twitter Example for Cohort 7  
+Website:  http://www.reshama.nyc  (even though it no longer exists)  
+
+
+(Note:  You will need to add a mobile phone to your account to get access to API.)
+
+
+
+
+---
+
+###Set up configuration file
 Tokens and keys should be kept in `.twitter_config` file.  (Tokens and keys are variables that contains the user credentials to access Twitter API.)
 
 > Checking to see if I have a config file.  If not, I will create one.
@@ -37,18 +53,5 @@ reshama$ cat .twitter_config
 }
 reshama$ 
 ```
-
-
-
-
-[Twitter API Tutorial (last updated 28Feb2016)](http://socialmedia-class.org/twittertutorial.html)  
-
-Application Details  
-Name:  ds7_twitter
-Description:  Twitter Example for Cohort 7  
-Website:  http://www.reshama.nyc  (even though it no longer exists)  
-
-
-(Note:  You will need to add a mobile phone to your account to get access to API.)
 
 
