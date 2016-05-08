@@ -10,7 +10,7 @@ ssh to your machine and follow the instructions below
 ```bash
 reshama$ ssh myaws
 ```
-```bash
+```console
 Last login: Sun May  1 14:48:41 2016 from cpe-74-73-114-220.nyc.res.rr.com
 reshama@ip-172-31-61-173:~$ 
 ```
