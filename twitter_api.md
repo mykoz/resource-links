@@ -1,8 +1,7 @@
 #Twitter API
 
 ## Table of Contents
-[i)  References](#section-i)  
-[A)  Setting up Postgres on Ubuntu](#section-a)  
+[A)  Sign up for Twitter Account](#section-a)  
 [B)  Help Commands for Postgres and SQL Database](#section-b)  
 [C)  Database Roles](#section-c)  
 [D)  Create a Database](#section-d)  
@@ -10,7 +9,10 @@
 
 ---
 
-## <a name="section-i"></a>i) References
+## <a name="section-i"></a>A) Sign up for Twitter Account  
+
+[Twitter.com](https://twitter.com/)
+
 
 [Twitter API Tutorial (last updated 28Feb2016)](http://socialmedia-class.org/twittertutorial.html)  
 
