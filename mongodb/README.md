@@ -33,7 +33,7 @@ reshama$
 #### shutdown mongo process (other ways to shutdown mongodb - google it)
 ```bash
 reshama$ kill -2 35526
-reshama$ ps -ax | grep mo
+reshama$  
 ```
 
 
