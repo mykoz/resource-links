@@ -2,6 +2,8 @@
  * owner, group, user
  * read, write, executable
 
+---
+
 [Syntax highlighting in markdown](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown)  
 bash: 
 >```bash
