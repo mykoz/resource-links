@@ -10,8 +10,9 @@ reshama$ pwd
 reshama$ ls .twitter_config 
 ls: .twitter_config: No such file or directory
 reshama$ 
-```
-####Add in your twitter api credentials using below format
+``` 
+
+####Add in your Twitter API credentials using below format
 **Note:  these are my credentials.  They won't work on your computer.**  
 
 ```console
