@@ -22,7 +22,7 @@ or
 reshama$ brew services start mongodb
 ```
 
-####See how many instances of mongo are running
+####See how many instances of Mongo are running
 ```bash
 reshama$ ps -ax | grep mongo
 35526 ??         0:00.80 /usr/local/opt/mongodb/bin/mongod --config /usr/local/etc/mongod.conf
@@ -30,7 +30,7 @@ reshama$ ps -ax | grep mongo
 reshama$
 ```
 
-####Shut down mongo process (other ways to shutdown mongodb - google it)
+####Shut down MongoDB process (other ways to shut down - google it)
 ```bash
 reshama$ kill -2 35526
 reshama$  
