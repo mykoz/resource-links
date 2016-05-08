@@ -1,4 +1,4 @@
-####MongoDB Notes
+##MongoDB Notes
 
 ###Installing MongoDB on local machine
 
