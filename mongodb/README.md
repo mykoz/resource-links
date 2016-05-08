@@ -1,8 +1,9 @@
 ##MongoDB Notes
 
-###Installing MongoDB on local machine
-
-[Install MongoDB Community Edition on OS X](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)
+###[Installing MongoDB Community Edition](https://docs.mongodb.com/manual/installation/) on local machine
+ * [Install on OS X](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)
+ * [Install on Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+ * [Install on Linux](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 
 ```
 $ brew update
