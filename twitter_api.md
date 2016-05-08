@@ -18,15 +18,22 @@
 
 [Twitter Apps](https://apps.twitter.com)
 
-**Instructions**   
-Application Details  
-Name:  ds7_twitter
-Description:  Twitter Example for Cohort 7  
-Website:  http://www.reshama.nyc  (even though it no longer exists)  
+Follow the instructions:  
+Application Details   
+**Name:**  ds7_twitter  
+**Description:**  Twitter Example for Cohort 7  
+**Website:**  https://github.com/reshama/reshama.github.io  (placeholder - add your github blog site)  
 
 (Note:  You will need to add a mobile phone to your account to get access to API.)
 
-
+Select tab for "Key and Access Tokens"  
+Scroll down to bottom of page and under "Token Actions" select "Create my access token"  
+You will need the following 4 items:  
+ * consumer key
+ * consumer secret 
+ * access token
+ * access token secret 
+ 
 ---
 
 ## <a name="section-c"></a>C) Set up Local Configuration File
