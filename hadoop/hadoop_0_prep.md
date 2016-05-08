@@ -1,12 +1,19 @@
-#Hadoop (on AWS Ubuntu cloud server)
-
-### Hadoop installation and setup on your cloud server
+##Hadoop Installation and Setup (on AWS Ubuntu cloud server)
 
 #### Set up a running AWS free tier instance
 
 In AWS, start a free tier Ubuntu instance.  The default username for an ubuntu instance in AWS is ***ubuntu***.  We'll just use that for our purposes today, but you can go through the steps that we've done previously if you want to set up your own username(s).
 
-ssh to your machine and follow the white rabbit below.
+ssh to your machine and follow the instructions below
+
+>my example
+```bash
+reshama$ ssh myaws
+```
+```bash
+Last login: Sun May  1 14:48:41 2016 from cpe-74-73-114-220.nyc.res.rr.com
+reshama@ip-172-31-61-173:~$ 
+```
 
 #### Install TextBlob
 
