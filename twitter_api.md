@@ -50,7 +50,7 @@ reshama$
 ``` 
 
 ####Add in your Twitter API credentials using below format
-**Note:  these are my credentials.  They won't work on your computer.**  
+(Note:  these are my credentials.  They won't work on your computer.)
 
 ```bash
 reshama$ cat > ~/.twitter_config << END
