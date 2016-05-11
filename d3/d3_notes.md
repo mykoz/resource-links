@@ -4,6 +4,8 @@
 [Making a Bar Chart](https://bl.ocks.org/mbostock/3885304)
 [Mister Nester](http://bl.ocks.org/shancarter/raw/4748131/)  
 
+[Export an image from a d3.js page as a SVG or bitmap](http://www.d3noob.org/2013/07/export-image-from-d3js-page-as-svg-or.html)
+
 ####D3 Nest
 ```
 d3.nest()
