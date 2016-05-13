@@ -1,4 +1,18 @@
-##Data Science Trivia 
+##[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+bold: `**bold**`  **bold**  
+italic:  `*italic*` *italic*  
+italic:  `_italic_` _italic_  
+
+Show code in Python:  
+```python
+print "hello world!"
+print "hello moon"
+```
+ 
+---
+
+###Data Science Trivia 
 
 ####Q1.  
 What is the most installed language in the world?  
