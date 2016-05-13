@@ -1,7 +1,12 @@
 ##Data Science Trivia 
 
 ####Q1.  
-What is the most installed language in the world?” “Python” “SAS” “R” “Spark" “Javascript"
+What is the most installed language in the world?  
+- Python
+- SAS
+- R
+- Spark
+- Javascript
 
 >>REPLACE THIS TEXT WITH YOUR RESPONSE
 
