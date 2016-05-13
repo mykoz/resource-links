@@ -4,11 +4,20 @@ bold: `**bold**`  **bold**
 italic:  `*italic*` *italic*  
 italic:  `_italic_` _italic_  
 
-Show code in Python:  
+---
+
+Code in Python:  
 ```python
 print "hello world!"
 print "hello moon"
 ```
+
+---
+
+How to add line breaks:  
+1.  can enclose text in triple back quotes  
+2.  add two spaces to end of line   
+ 
  
 ---
 
