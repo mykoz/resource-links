@@ -6,6 +6,8 @@ italic:  `_italic_` _italic_
 
 ---
 
+###Block Code 
+
 Block code that is non-specific:  
 ```
 print "hello world!"
@@ -36,11 +38,25 @@ $ ps awx | grep mongo
 
 ---
 
+###Line Breaks
 How to add line breaks:  
 1.  can enclose text in triple back quotes  
 2.  add two spaces to end of line   
  
- 
+###Tables in Markdown
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
 ---
 
 ###Data Science Trivia 
