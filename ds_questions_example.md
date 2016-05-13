@@ -27,10 +27,10 @@ What is the distribution of t-squared?
 
 ####Q3.  
 In the scikit-learn's official source repo, about how many issues are outstanding? (go ahead and check out their page)  
-1. 7
-2. 70
-3. 700
-4. 7000
+1. 7  
+2. 70  
+3. 700  
+4. 7000  
 
 >>REPLACE THIS TEXT WITH YOUR RESPONSE
 
