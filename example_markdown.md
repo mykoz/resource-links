@@ -8,6 +8,8 @@ italic:  `_italic_` _italic_
 
 ###Block Code, Language-specific 
 
+####python
+
 Block code that is non-specific:  
 ```
 print "hello world!"
@@ -19,6 +21,8 @@ Block code that is **python**-specific:
 print "hello world!"
 print "hello moon"
 ```
+
+####bash or console
 
 Block code that is non-specific:  
 ```
@@ -33,6 +37,8 @@ $ git remote -v
 
 $ ps awx | grep mongo
 ```
+
+####sql
 
 Block code that is non-specific:  
 ```
