@@ -6,7 +6,7 @@ italic:  `_italic_` _italic_
 
 ---
 
-###Block Code 
+###Block Code, Language-specific 
 
 Block code that is non-specific:  
 ```
@@ -14,7 +14,7 @@ print "hello world!"
 print "hello moon"
 ```
 
-Block code that is python-specific:  
+Block code that is **python**-specific:  
 ```python
 print "hello world!"
 print "hello moon"
@@ -26,13 +26,22 @@ $ git status
 $ git remote -v
 ```
 
-Block code that is bash-specific:  
+Block code that is **bash**-specific:  
 ```console
 $ git status
 $ git remote -v
 
 $ ps awx | grep mongo
+```
 
+Block code that is non-specific:  
+```
+SELECT * FROM Customers WHERE Country='Sweden';
+```
+
+Block code that is **sql**-specific:  
+```sql
+SELECT * FROM Customers WHERE Country='Sweden';
 ```
 
 
