@@ -61,7 +61,9 @@ SELECT * FROM Customers WHERE Country='Sweden';
 How to add line breaks:  
 1.  can enclose text in triple back quotes  
 2.  add two spaces to end of line   
- 
+
+---
+
 ###Tables in Markdown
 ```
 First Header | Second Header
@@ -74,7 +76,6 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
-
 
 ---
 
