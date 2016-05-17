@@ -1,5 +1,4 @@
 ##[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)  
-(A 3-minute read from GitHub Guides.)  
 
 bold: `**bold**`  **bold**  
 italic:  `*italic*` *italic*  
