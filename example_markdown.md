@@ -6,6 +6,10 @@ italic:  `_italic_` _italic_
 
 ---
 
+In a markdown file on GitHub, to see how it was formatted, click on "raw" on upper right corner.
+
+---
+
 ###Block Code, Language-specific 
 
 ####python
