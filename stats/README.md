@@ -1,5 +1,7 @@
 
 
+[SVM For Dummies](http://www.svms.org/tutorials/Berwick2003.pdf)
+
 [Gini vs Entropy](https://www.garysieling.com/blog/sklearn-gini-vs-entropy-criteria)
 
 [Bias vs Variance](http://scott.fortmann-roe.com/docs/BiasVariance.html)
