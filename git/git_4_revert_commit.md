@@ -30,6 +30,11 @@ git reset --hard HEAD^     # use --hard if you don't care about keeping the chan
 reshama$ git reset --soft HEAD~1    #use --soft to preserve changes that were made and undo last commit (~1 = back 1 commit)
 ```
 
+####Unstage a file
+```
+$ git reset HEAD <file>       
+````
+
 ####Check status of files
 ```
 reshama$ git status
