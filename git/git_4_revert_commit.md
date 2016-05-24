@@ -13,12 +13,18 @@ Where you are:
 
 ####View the commit log
 ```console
-reshama$ git log -1
-commit f2e80f37be66f7cc17f88c642c736ecf5e227ace
+reshama$ git log -2
+commit a3334f177bed83528f5ab3883d87f1336f599f49
 Author: reshama <rs2715@gmail.com>
-Date:   Tue May 24 10:02:57 2016 -0400
+Date:   Tue May 24 11:04:52 2016 -0400
 
-    updating links
+    adding test file 4
+
+commit 12dc41f2620118977c17ad21dfc4b504191e170e
+Author: reshama <rs2715@gmail.com>
+Date:   Tue May 24 11:04:06 2016 -0400
+
+    adding test3 file
 reshama$ 
 ```
 ####How to undo a commit
