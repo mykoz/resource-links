@@ -1,4 +1,13 @@
 
+
+###References
+
+[Stack Overflow:  How do you undo the last commit](http://stackoverflow.com/questions/927358/how-do-you-undo-the-last-commit)  
+[Stack Overflow:  Remove files from last commit](http://stackoverflow.com/questions/12481639/remove-files-from-git-commit)  
+
+---
+
+
 Where you are:  
  * you've committed some files, pushed to your local repo, and want to delete the commit
 
