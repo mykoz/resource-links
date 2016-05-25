@@ -1,4 +1,5 @@
 
+[Algorithm Visualizer](http://jasonpark.me/AlgorithmVisualizer/)
 
 [SVM For Dummies](http://www.svms.org/tutorials/Berwick2003.pdf)
 
