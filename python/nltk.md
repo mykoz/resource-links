@@ -4,10 +4,10 @@
 
 
 
-Software / Libraries
-    Mallet (software project) (http://mallet.cs.umass.edu/)
-    Stanford Topic Modeling Toolkit (http://nlp.stanford.edu/software/tmt/tmt-0.4/)
-    Gensim - Topic Modeling for Humans (http://radimrehurek.com/gensim/)
+Software / Libraries  
+ * Mallet (software project) (http://mallet.cs.umass.edu/)
+ * Stanford Topic Modeling Toolkit (http://nlp.stanford.edu/software/tmt/tmt-0.4/)
+ * Gensim - Topic Modeling for Humans (http://radimrehurek.com/gensim/)
 
 
 
