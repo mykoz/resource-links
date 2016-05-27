@@ -16,6 +16,7 @@ In natural language processing, latent Dirichlet allocation (LDA) is a generativ
 
 NMF finds applications in such fields as computer vision, document clustering,[1] chemometrics, audio signal processing[3] and recommender systems.[4][5]
 
+---
 
 Software / Libraries  
  * Mallet (software project) (http://mallet.cs.umass.edu/)
