@@ -1,7 +1,20 @@
 
 [Wikipedia's Topic Modeling](https://en.wikipedia.org/wiki/Topic_model)
 
+ * A topic model is a probabilistic model of the words appearing in a corpus of documents.
 
+###LDA (latent Dirichlet allocation)
+
+In natural language processing, latent Dirichlet allocation (LDA) is a generative statistical model that allows sets of observations to be explained by unobserved groups that explain why some parts of the data are similar. For example, if observations are words collected into documents, it posits that each document is a mixture of a small number of topics and that each word's creation is attributable to one of the document's topics.
+
+###SVD (singular value decomposition)
+
+
+###NMF (non-negative matrix factorization)
+
+[Non-negative matrix factorization (NMF)](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization), also non-negative matrix approximation[1][2] is a group of algorithms in multivariate analysis and linear algebra where a matrix V is factorized into (usually) two matrices W and H, with the property that all three matrices have no negative elements. This non-negativity makes the resulting matrices easier to inspect. Also, in applications such as processing of audio spectrograms non-negativity is inherent to the data being considered. Since the problem is not exactly solvable in general, it is commonly approximated numerically.
+
+NMF finds applications in such fields as computer vision, document clustering,[1] chemometrics, audio signal processing[3] and recommender systems.[4][5]
 
 
 Software / Libraries  
