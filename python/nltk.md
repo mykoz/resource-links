@@ -1,7 +1,5 @@
 
-[Text Analysis with Topic Models for the Humanities and Social Sciences](https://de.dariah.eu/tatom/)
-
-Text Analysis with Topic Models for the Humanities and Social Sciences (TAToM) consists of a series of tutorials covering basic procedures in quantitative text analysis. The tutorials cover the preparation of a text corpus for analysis and the exploration of a collection of texts using topic models and machine learning.
+[Text Analysis with Topic Models for the Humanities and Social Sciences (TAToM)](https://de.dariah.eu/tatom/) consists of a series of tutorials covering basic procedures in quantitative text analysis. The tutorials cover the preparation of a text corpus for analysis and the exploration of a collection of texts using topic models and machine learning.
 
 These tutorials cover basic as well as somewhat advanced procedures and make extensive use of the Python programming language to organize, analyze, and visualize data.
 
