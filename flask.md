@@ -3,6 +3,7 @@
 http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html
 
 
+[How To Deploy a Flask Application on an Ubuntu VPS (Digital Ocean)](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
 
 ```
 Flask Web Development in Python - 1 - Intro
