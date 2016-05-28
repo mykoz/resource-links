@@ -17,6 +17,8 @@ Jekyll - ruby app you install on your system
 http://jekyllrb.com/
 
 ####Install Jekyll on your machine
+`$ sudo gem install jekyll`  
+
 ```console
 reshama$ gem install jekyll
 ERROR:  While executing gem ... (Gem::FilePermissionError)
@@ -25,6 +27,8 @@ reshama$ sudo gem install jekyll
 
 ```
 ####Check which version of Jekyll is installed
+`$ jekyll -v`  
+
 ```console
 reshama$ jekyll -v
 jekyll 3.1.6
@@ -32,6 +36,8 @@ reshama$
 ```
 
 ####Create project
+`$ jekyll new blog`  
+
 ```console
 reshama$ jekyll new blog
 New jekyll site installed in /Users/reshamashaikh/ds/metisgh/blog. 
