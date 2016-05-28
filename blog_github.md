@@ -10,7 +10,7 @@ http://jekyllthemes.org/
 1. Go to your github homepage.  (For me, it is:  https://github.com/reshama)  
 2. Search in the upper left box for keyword.  We'll try the 'emerald' theme:  emerald
 3. This is the theme you're looking for:  https://github.com/KingFelix/emerald
-4. For the repo under your account name. 
+4. Fork the repo under your account name. 
 5. Change branch to:  gh-pages
 6. Go to:  Settings
       a.  /Options    Change repo name to:  `yourgithubusername.github.io`. This is a GitHub convention for making a "user page".  (For me, it will be:  `reshama.github.io`
