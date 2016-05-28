@@ -1,6 +1,41 @@
 
 ####What is Jekyll?
-A static website
+A static website generator.  
+Process:  make template + make content --> run Jekyll --> get site of static HTML pages  
+Pros:
+ * faster site (simple, no database connection)
+ * more secure
+ * less maintenance
+ * lower cost
+ * free hosting on GitHub
+ * blog aware - can write content in markdown
+
+Jekyll - ruby app you install on your system  
+
+---
+
+http://jekyllrb.com/
+
+```console
+reshama$ gem install jekyll
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+reshama$ sudo gem install jekyll
+
+```
+
+```console
+reshama$ jekyll new blog
+New jekyll site installed in /Users/reshamashaikh/ds/metisgh/blog. 
+
+reshama$ cd blog
+reshama$ pwd
+/Users/reshamashaikh/ds/metisgh/blog
+reshama$ jekyll serve
+
+```
+
+
 
 ####Are there different website themes I can choose from with Jekyll?
 Yes, lots.  
