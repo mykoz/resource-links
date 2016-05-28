@@ -16,12 +16,19 @@ Jekyll - ruby app you install on your system
 
 http://jekyllrb.com/
 
+####Install Jekyll on your machine
 ```console
 reshama$ gem install jekyll
 ERROR:  While executing gem ... (Gem::FilePermissionError)
     You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
 reshama$ sudo gem install jekyll
 
+```
+####Check which version of Jekyll is installed
+```console
+reshama$ jekyll -v
+jekyll 3.1.6
+reshama$ 
 ```
 
 ```console
