@@ -31,6 +31,7 @@ jekyll 3.1.6
 reshama$ 
 ```
 
+####Create project
 ```console
 reshama$ jekyll new blog
 New jekyll site installed in /Users/reshamashaikh/ds/metisgh/blog. 
@@ -38,9 +39,28 @@ New jekyll site installed in /Users/reshamashaikh/ds/metisgh/blog.
 reshama$ cd blog
 reshama$ pwd
 /Users/reshamashaikh/ds/metisgh/blog
-reshama$ jekyll serve
-
 ```
+
+####Run Jekyll
+`$ jekyll serve`  
+
+```console
+reshama$ jekyll serve
+Configuration file: /Users/reshamashaikh/ds/metisgh/blog/_config.yml
+            Source: /Users/reshamashaikh/ds/metisgh/blog
+       Destination: /Users/reshamashaikh/ds/metisgh/blog/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.275 seconds.
+ Auto-regeneration: enabled for '/Users/reshamashaikh/ds/metisgh/blog'
+Configuration file: /Users/reshamashaikh/ds/metisgh/blog/_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+[2016-05-28 12:55:38] ERROR `/favicon.ico' not found.
+[2016-05-28 12:55:38] ERROR `/favicon.ico' not found.
+```
+My site is up and running at:  
+http://127.0.0.1:4000/
 
 
 
