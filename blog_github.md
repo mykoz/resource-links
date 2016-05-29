@@ -1,3 +1,4 @@
+https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
 
 ####What is Jekyll?
 A static website builder.  
