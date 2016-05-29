@@ -1,6 +1,6 @@
 
 ####What is Jekyll?
-A static website generator.  
+A static website builder.  
 Process:  make template + make content --> run Jekyll --> get site of static HTML pages  
 Pros:
  * faster site (simple, no database connection)
