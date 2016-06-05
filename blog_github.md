@@ -2,6 +2,8 @@ https://github.com/barryclark/jekyll-now
 
 https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
 
+https://mmistakes.github.io/minimal-mistakes/docs/configuration/  
+
 ####What is Jekyll?
 A static website builder.  
 Process:  make template + make content --> run Jekyll --> get site of static HTML pages  
