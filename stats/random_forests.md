@@ -48,8 +48,30 @@ usually, the more the better, but runtime grows linearly
 Max Depth of Trees
  - too small underfits
  - too large overfits
+
+Min sample leaf size
  - 
  
+Train-Test-Validation
+If you do grid search, you can overfit your data
+Keep 3rd data set:  Validation
+
+optimal number will depend on your dataset
+
+Recall
+Random Forests - it takes a lot of work to interpret random forests
+
+Tips
+- check for overfitting
+- 
+- use AUC, not accuracy
+- precision - recall - queue rate is useful in business settings
+- visualize to understand the model
+- if data is too big, try random sub-sampling
+
+
+
+
 
 
 
