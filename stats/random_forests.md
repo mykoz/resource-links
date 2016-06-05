@@ -69,6 +69,8 @@ Tips
 - visualize to understand the model
 - if data is too big, try random sub-sampling
 
+Begin with airline dataset
+got idea from blog that was bench marking random forests
 
 
 
