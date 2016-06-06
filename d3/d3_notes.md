@@ -18,6 +18,21 @@ d3.nest()
 
 --- 
 
+####DOM elements  
+h1  
+div  
+
+####SVG elements  
+<circle>  
+<text>  
+<line>  
+<g>  
+
+Let's do decorations second, data first  
+svg - do not have to specify pixels, since that is all that it knows, its only unit.
+
+---
+
 ###Group elements:  g  
  * in SVG land, a "g" element is a _group_ element  
  * group elements are invisible (unline line, rect and cir) and they have no visual presence themselves
