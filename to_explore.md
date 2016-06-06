@@ -77,6 +77,9 @@ open-source system for creating SCORM-compliant exams which run entirely in the 
 
 [ML Django Workshop](https://github.com/lightstrike/mlworkshop)
 
+**Inkpad**  
+http://www.creativebloq.com/illustrator/alternative-to-illustrator-1131664  
+https://www.nyfa.edu/student-resources/six-free-alternatives-to-adobe-illustrator/
 *****
 
 ####Graphing
