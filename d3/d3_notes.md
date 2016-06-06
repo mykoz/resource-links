@@ -23,11 +23,12 @@ h1
 div  
 
 ####SVG elements  
+```
 <circle>  
 <text>  
 <line>  
 <g>  
-
+```
 Let's do decorations second, data first  
 svg - do not have to specify pixels, since that is all that it knows, its only unit.
 
