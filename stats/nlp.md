@@ -13,10 +13,11 @@ https://www.quora.com/What-is-a-good-explanation-of-Latent-Dirichlet-Allocation
 
 LDA:  Latent Dirichlet allocation is a way of automatically discovering topics that are contained in a document. 
 - common method of topic modeling
--
 
 (note: LDA is a bag-of-words model)
-bag-of-words: 
-text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity.
+
+####bag-of-words:  
+
+text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity.  
 
 The Latent part of LDA comes into play because in  statistics, a variable we have to infer rather than directly observing  is called a "latent variable". We're only directly observing the words  and not the topics, so the topics themselves are latent variables (along  with the distributions themselves).
