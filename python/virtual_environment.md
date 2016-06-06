@@ -15,3 +15,17 @@
 
   9) `(venv)00:00 ~/mlworkshop $  echo alias ipython=\""python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'\"" >> ~/.bashrc` - makes sure that the correct version of `ipython` is used in every bash shell ([details here](http://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work))
 
+---
+
+http://chrisstrelioff.ws/sandbox/2014/09/04/virtualenv_and_virtualenvwrapper_on_ubuntu_14_04.html
+```
+$ workon
+
+$ workon tree
+$ pip list
+
+$ rmvirtualenv test_env01
+
+$ deactivate
+```
+
