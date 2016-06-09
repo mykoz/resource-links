@@ -1,3 +1,7 @@
+###References
+
+[Max Melnick blog on setting up notebook in docker on AWS](http://maxmelnick.com/2016/06/04/spark-docker.html)
+
 ###Spark Plaforms
 * locally (download the source from github or Apache)
 * Cloudera (need Virtual Box or VM Ware Fusion Pro)
