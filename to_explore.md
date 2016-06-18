@@ -1,3 +1,7 @@
+Resume Templates  
+http://creddle.io/
+
+---
 
 [stats.org](http://www.stats.org/contribute/)  
 How many times have you watched the news or read a magazine article and seen a statistical blooper? How often have you wished you could explain to them how to get the statistics right?  
