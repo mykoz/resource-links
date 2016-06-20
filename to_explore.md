@@ -1,6 +1,8 @@
 Resume Templates  
 http://creddle.io/
 
+http://www.mitchcrowe.com/learn-data-science-the-hard-way/
+
 ---
 
 [stats.org](http://www.stats.org/contribute/)  
