@@ -6,6 +6,10 @@
 
 [Building a Blog with Jekyll and GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 
+Tufte theme:
+http://jekyllthemes.org/themes/tufte-jekyll/
+
+
 https://mmistakes.github.io/minimal-mistakes/docs/configuration/  
 
 ####What is Jekyll?
