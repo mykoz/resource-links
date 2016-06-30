@@ -19,7 +19,7 @@ http://getemoji.com/
 (Of course, you copy and paste the emoji of your choice and whatever name you like to see.)  
 `export PS1="reshama 🐘  $ "`
 
-3.  Save and exit.
+3.  Save and exit.  
 ctrl-x ctrl-s  (to save file using Emacs)  
 ctrl-x ctrl-c  (to exit Emacs)  
 
