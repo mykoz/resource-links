@@ -2,7 +2,7 @@
 The bash profile contains global options.  Here we will set up some shortcuts to save on typing.  
 
 
-##Access bash_profile
+####Access bash_profile
 This file is located in your home directory.  
 To access it, use any editor of your choice.
 ```
