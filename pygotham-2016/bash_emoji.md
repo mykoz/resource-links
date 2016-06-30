@@ -20,7 +20,7 @@ http://getemoji.com/
 
 3.  Save and exit.
 ctrl-x ctrl-s  (to save file using Emacs)  
-ctrl-x ctrl-c  (to exit Emacs)
+ctrl-x ctrl-c  (to exit Emacs)  
 
 4.  Run your updated bash profile file.  
 `reshama$ source ~/.bash_profile`
