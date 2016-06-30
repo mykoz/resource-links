@@ -20,6 +20,14 @@ alias server="python -m SimpleHTTPServer"
 
 ```
 
+####Alias example for project folder
+```
+reshama 🐘  $ pwd
+/Users/reshamashaikh
+reshama 🐘  $ ds8
+reshama 🐘  $ pwd
+/Users/reshamashaikh/_ds/metis/metisgh/nyc16_ds8
+```
  
 ####Before...
 This is what my terminal prompt used to look like (boring but safe):  
