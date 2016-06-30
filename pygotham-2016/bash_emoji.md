@@ -2,7 +2,9 @@
 
 ####Before...
 This is what my terminal prompt used to look like (boring but safe):  
-`reshama$  `
+```bash
+reshama$  
+```
 
 ####Get emoji
 Go to this website and choose an emoji.  Copy it.  
