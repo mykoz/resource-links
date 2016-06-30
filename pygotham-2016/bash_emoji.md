@@ -14,7 +14,7 @@ http://getemoji.com/
 `reshama$ emacs ~/.bash_profile`
 
 2.  Add this line.  (Of course, you copy and paste the emoji of your choice and whatever name you like to see.)  
-`export PS1="reshama 🐘  $ “`
+`export PS1="reshama 🐘  $ "`
 
 3.  Save and exit.
 ctrl-x ctrl-s  (to save file using Emacs)  
@@ -27,4 +27,4 @@ ctrl-x ctrl-c  (to exit Emacs)
 Voila!  My terminal prompt now looks like:  
 `reshama 🐘  $ `
 
-*Note:*  I used Emacs editor here, but you can use any editor of your choice.  
+**Note:**  I used Emacs editor here, but you can use any editor of your choice.  
