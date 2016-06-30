@@ -15,7 +15,8 @@ http://getemoji.com/
 1.  Go to your bash profile.  
 `reshama$ emacs ~/.bash_profile`
 
-2.  Add this line.  (Of course, you copy and paste the emoji of your choice and whatever name you like to see.)  
+2.  Add this line.  
+(Of course, you copy and paste the emoji of your choice and whatever name you like to see.)  
 `export PS1="reshama 🐘  $ "`
 
 3.  Save and exit.
