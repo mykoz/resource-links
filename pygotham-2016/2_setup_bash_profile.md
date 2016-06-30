@@ -9,6 +9,17 @@ To access it, use any editor of your choice.
 $ emacs ~/.bash_profile
 ```
 
+####Add these options
+
+```bash
+alias ls='ls -lGgo'
+alias rm='rm -i'
+alias home="cd /Users/reshamashaikh"
+alias ds8="cd /Users/reshamashaikh/_ds/metis/metisgh/nyc16_ds8"
+alias server="python -m SimpleHTTPServer"
+
+```
+
  
 ####Before...
 This is what my terminal prompt used to look like (boring but safe):  
