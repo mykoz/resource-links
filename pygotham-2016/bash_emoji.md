@@ -20,8 +20,8 @@ http://getemoji.com/
 `export PS1="reshama 🐘  $ "`
 
 3.  Save and exit.  
-ctrl-x ctrl-s  (to save file using Emacs)  
-ctrl-x ctrl-c  (to exit Emacs)  
+C-x C-s  (to save file using Emacs; C=control)  
+C-x C-c  (to exit Emacs)  
 
 4.  Run your updated bash profile file.  
 `reshama$ source ~/.bash_profile`
