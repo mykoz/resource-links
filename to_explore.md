@@ -6,6 +6,12 @@ http://kramdown.gettalong.org/syntax.html
 
 ---
 
+Data Science Resources
+
+https://www.opendatascience.com/blog/python-getting-started-with-data-science/
+
+---
+
 [stats.org](http://www.stats.org/contribute/)  
 How many times have you watched the news or read a magazine article and seen a statistical blooper? How often have you wished you could explain to them how to get the statistics right?  
 
