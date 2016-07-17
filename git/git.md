@@ -65,3 +65,32 @@ fix conflicts
 $ git rebase --continue
 
 ```
+
+###reflog
+`git log`  
+`git reflot`  shows commits in the order in which you referenced them  
+
+Step 1:  find the commit you want  
+Step 2:  `checkout` the commit 
+Step 3:  `reset`
+
+
+###squashing commits
+```bash
+$ git add missing-file.txt
+$ git commit --amend
+```
+
+```bash
+$ git rebase --interactive HEAD~5
+```
+
+
+
+
+
+
+
+
+
+###
