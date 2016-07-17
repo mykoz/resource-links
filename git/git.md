@@ -10,5 +10,19 @@ gets basic information about commit
 git show
 ```
 
+hash:  totally unique identifier of a commit  
+
+blame:   
+* commit hash
+* author's name
+* date of commit
+```
+$git blame path/to/file.py
+```
+
+
+
+
+
 
 
