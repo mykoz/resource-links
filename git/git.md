@@ -47,5 +47,21 @@ never change history when other people are using your branch (unless they know y
 Never change history on master branch  
 Best practice:  only change history for commits that you haven't pushed to git  
 
+problem with merge  
+find the merge base between 
+```bash
+$ git checkout featurebranch
+$ git rebase master
+$ git status
+```
 
+```
+$ git push -f
+```
 
+###rebase - sometimes you get conflicts
+fix conflicts  
+```bash
+$ git rebase --continue
+
+```
