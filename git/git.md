@@ -20,7 +20,13 @@ blame:
 $git blame path/to/file.py
 ```
 
-
+###cherry-pick 
+How do I move my commit from one branch to another?  
+```
+$ git show
+$ git checkout featurebranch
+$ git cherry-pick 1d5b2e
+```
 
 
 
