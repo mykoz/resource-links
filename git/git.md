@@ -38,7 +38,14 @@ HEAD~~ ==
 ```
 $ git checkout master
 $ git reset --hard HEAD~
+```
 
+###rebase
+command for changing history  
+important to treat it with respect  
+never change history when other people are using your branch (unless they know you're doing so)  
+Never change history on master branch  
+Best practice:  only change history for commits that you haven't pushed to git  
 
 
 
