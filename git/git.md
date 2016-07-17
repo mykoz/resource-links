@@ -76,6 +76,7 @@ Step 3:  `reset`
 
 
 ###squashing commits
+does change history  
 ```bash
 $ git add missing-file.txt
 $ git commit --amend
@@ -86,11 +87,11 @@ $ git rebase --interactive HEAD~5
 ```
 
 
+###splitting commits
+
+###bisection
+useful tool for finding bugs in code  
+will tell you which commit where code went bad  
 
 
 
-
-
-
-
-###
