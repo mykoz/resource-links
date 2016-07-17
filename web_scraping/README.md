@@ -8,12 +8,16 @@ Even though Scrapy was originally designed for web scraping, it can also be used
 ---
 
 ###Requirements
-stable with 2.7  
-pip
-lxml
-OpenSSL
+* stable with py2.7  
+* pip
+* lxml
+* OpenSSL
 
 ```
 pip intall scrapy
 ```
 
+```python
+import scrapy
+
+class ConfifurSpider(
