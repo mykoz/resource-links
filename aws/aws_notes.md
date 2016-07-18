@@ -10,3 +10,6 @@ Host *
   ServerAliveInterval 60
 
 ```
+---
+
+How to set up authentication so you can read and write to your AWS EC2 mongodb server (without granting admin priviledges to the whole internet) http://ianlondon.github.io/blog/mongodb-auth/
