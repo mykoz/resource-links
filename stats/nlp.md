@@ -27,3 +27,10 @@ The Latent part of LDA comes into play because in  statistics, a variable we hav
 Process:  
 1.  Need to specify number of topics
 2.  
+
+---
+
+video for understanding how to use Latent Dirichlet Allocation (LDA) for topic modeling https://www.youtube.com/watch?v=ePUAZ8RG-3w
+
+http://rare-technologies.com/text-summarization-with-gensim/
+
