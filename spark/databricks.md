@@ -10,3 +10,5 @@ Sign in to Databricks console:
 https://community.cloud.databricks.com/login.html  
 
 
+uploaded to DBFS:  
+/FileStore/tables/irxurku91468860015712/ratings.csv
