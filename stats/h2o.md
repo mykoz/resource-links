@@ -85,6 +85,8 @@ turn each image into a thousand pixels.
 * Elastic ML:  manages your H2O cluster
 * http://www.h2o.ai/steam
 * Model library:  
+* need to set up postgres to run it (they are working on automating it)
+* ex:  churn_analysis.ipynb
 * 
 
 
