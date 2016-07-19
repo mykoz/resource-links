@@ -9,6 +9,9 @@
 
 ---
 
+###Installation
+http://www.h2o.ai/download/h2o/python
+
 ###Training
 https://www.gitbook.com/book/h2o/h2o-world-2015-training/details
 
