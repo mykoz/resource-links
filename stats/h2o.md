@@ -89,6 +89,13 @@ turn each image into a thousand pixels.
 * ex:  churn_analysis.ipynb
 * 
 
+####Speaker:  Sparkling Water 2.0 Tom Kraljevic
+* Sparking brings H2O algorithms seamlessly to Spark users
+    * Transparent availability in Spark workflows
+* Access MLlib
+* 
+h20stream (H2O Open Source Community Forum)  
+
 
 
 
