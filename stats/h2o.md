@@ -59,6 +59,11 @@ book:  How non-conformists change the world
 4.  GBM + DRF (Gradient Boosting and Random Forests)
 5.  
 
+###Deep Learning
+
+dataset with a million images.  
+turn each image into a thousand pixels.  
+
 
 
 
