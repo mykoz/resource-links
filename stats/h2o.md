@@ -96,6 +96,13 @@ turn each image into a thousand pixels.
 * 
 h20stream (H2O Open Source Community Forum)  
 
+####Speaker:  Advanced Munging in H2O using R (Matt Dowle)
+
+####Speaker:  Visual Machine Learning (Design) (Tony Chu)
+http://www.r2d3.us/visual-intro-to-machine-learning-part-1/  
+
+####Migrating from SAS to Open Source (Ken Sanford & Fonda Ingram, H2O.ai)
+
 
 
 
