@@ -36,11 +36,33 @@
   * 
 
 Open Source Cancer Diagnostics Ecosystem  
+Open Source Health Diagnostics  
+Open Data Ecosystems  
+
 Consumerize data  
 
+book:  The Importance of Being Little  
+What Preschoolers really need from adults  
+
+Time is the only non-renewable source  
+algorithm + data + people = change  
+
+book:  How non-conformists change the world  
+
+---
+
+###Features
+
+1.  have data with lots of missing labels.  can still build model
+2.  Large POJOs:  
+3.  Hyper Parameter Tuning:  automatically tunes model parameters for the desired metric, with convergence-based early stopping for models and search
+4.  GBM + DRF (Gradient Boosting and Random Forests)
+5.  
 
 
-6000 
+
+
+
 
 ###Training
 https://www.gitbook.com/book/h2o/h2o-world-2015-training/details
