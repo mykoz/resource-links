@@ -66,7 +66,15 @@ turn each image into a thousand pixels.
 
 
 
-
+####Speaker:  Bill Gallmeister, VP of Engineering at H2O  
+* working on new product called "steam"
+* steam is a DS platform
+* purpose is to operationalize your model
+* aid in iterative process 
+* Elastic ML:  manages your H2O cluster
+* http://www.h2o.ai/steam
+* Model library:  
+* 
 
 
 ###Training
