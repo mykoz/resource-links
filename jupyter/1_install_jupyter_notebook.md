@@ -12,7 +12,8 @@ $ conda install jupyter
 $ conda update jupyter
 ```
 
-####Run the Notebook at Terminal Prompt
+####Run the Notebook at Terminal Prompt  
+Note:  The notebook will open at the directory in which you launch the notebook on your terminal.  
 ```
 $ jupyter notebook
 ```
