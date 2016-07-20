@@ -41,3 +41,11 @@ Shutdown this notebook server (y/[n])? y
 [I 11:43:37.783 NotebookApp] Shutting down kernels
 reshama$ 
 ```
+
+---
+
+###Getting to Know Jupyter
+
+You can try out Jupyter on a browser without installing it.  
+https://try.jupyter.org/
+
