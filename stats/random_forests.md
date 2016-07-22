@@ -6,6 +6,18 @@ What is the best split that gives me the most information?
 
 ####Information Entropy or Information Gain
 
+Bootstrap:  sample with replacement  
+Bagging:  bootstrap aggregate
+
+Something better - random forests  
+What might be an issue with bagging:  
+
+Introduce randomness when building each tree.  
+For a split, do not take the "best" feature split.  
+First, randomly choose sqrt(n_features).  
+Only choose the best split among these.  
+
+
 
 ---
 
