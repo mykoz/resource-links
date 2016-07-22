@@ -9,3 +9,9 @@
 
 ####Power
 The power of a hypothesis test is the probability of making the correct decision if the alternative hypothesis is true. That is, the power of a hypothesis test is the probability of rejecting the null hypothesis H0 when the alternative hypothesis HA is the hypothesis that is true.
+
+---
+
+####Transformations
+
+[Tukey and Mosteller’s Bulging Rule (and Ladder of Powers)](https://dzone.com/articles/capital-markets-pivots-to-big-data-in-2016)
