@@ -6,9 +6,11 @@ Register for free [Databricks Community Edition](https://accounts.cloud.databric
 
 
 
-Sign in to Databricks console:  
+####Sign in to Databricks console:  
 https://community.cloud.databricks.com/login.html  
 
+Save your username and password in a convenient place!
 
-uploaded to DBFS:  
+
+file uploaded to DBFS:  
 /FileStore/tables/irxurku91468860015712/ratings.csv
