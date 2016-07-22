@@ -1,3 +1,14 @@
+###Decision Trees
+
+What is the best split that gives me the most information?  
+* Ask the question which gives you the most information gain
+* Find the best split you can at each step
+
+####Information Entropy or Information Gain
+
+
+---
+
 ##Random Forests
 
 
