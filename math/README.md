@@ -1,6 +1,9 @@
 
 ####Gradient
 
+For a function of two variables z=f(x,y), the gradient is the two-dimensional vector <f_x(x,y),f_y(x,y)>.  
+(This definition generalizes in a natural way to functions of more than three variables.)  
+
 For the function z = f(x,y)= 4x^2 + y^2  
 grad(f) = df/dx (x,y,z) , df/dy (x,y,z) , df/dz (x,y,z)
 grad(f) = 8x, 2y
