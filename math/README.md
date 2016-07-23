@@ -1,9 +1,11 @@
 
 ####Gradient
 
-For the function $ z=f(x,y)=4x^2+y^2. $  
-The gradient is displaymath64 
-
+For the function z = f(x,y)= 4x^2 + y^2  
+grad(f) = df/dx (x,y,z) , df/dy (x,y,z) , df/dz (x,y,z)
+grad(f) = 8x, 2y
+ 
+---
 
 http://mathinsight.org/directional_derivative_gradient_examples
 
