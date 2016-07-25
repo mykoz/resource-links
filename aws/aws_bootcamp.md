@@ -130,4 +130,20 @@ Broad set of Compute Instance Types
    * allows you to bid on unused instances
    * on-demand prices could get expensive; lower pricing
    * can run spot instance, but could be terminated if someone needs the space
+   
+####Service-Specific Credentials
+* Amazon EC2 key pairs; use key pair to authenticate yourself to the box
+   * Public Half:  inserted by Amazon into each Amazon EC2 instance that you launch
+   * Private Half:  downloaded to your desktop
+* Standard SSH
+* Linux launch (first boot)
+   * public key made available through metadata
+   * public key inserted into `~/.ssh/authorized_keys`
+   * user connects with SSH using their private key
    * 
+   
+####Instance Metadata
+http://169.254.169.254/latest/meta-data contains a wealth of info  
+
+####AWS Simply Monthly Calculator
+http://calculator.s3.amazonaws.com/index.html
