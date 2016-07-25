@@ -149,3 +149,7 @@ http://169.254.169.254/latest/meta-data contains a wealth of info
 http://calculator.s3.amazonaws.com/index.html
 You're not paying for processing power, you're paying for whether the instance is on or off.  
 
+##Storage
+
+####Amazon Simple Storage Service (S3)
+
