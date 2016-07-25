@@ -47,3 +47,14 @@ dealing with virtual servers and compute instances
 * 
 * Instances
 
+####Storage
+* Ephemereal
+   * block storage, instance storage
+* EBS
+   * network attached storage
+* S3
+   * object storage
+* RDS
+   * relational database service
+* EFS
+   * elastic file system
