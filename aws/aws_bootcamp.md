@@ -1,2 +1,5 @@
 ##AWS Pop Up Loft
-###Bootcamp
+###Getting Started with AWS - Technical Bootcamp
+
+https://events-aws.qwiklab.com/live  
+
