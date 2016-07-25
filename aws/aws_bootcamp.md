@@ -65,6 +65,7 @@ AWS:  benefits - can go global in seconds; have already established fibers
 * AWS has 13 regions, world-wide, with 4 more coming online
 * Region: grouping of at least 2 data zones
 * High availability: can create a system that has ability to have failure at primary level, roll over to secondary, and have an acceptable level of downtime
-* 
+
+
 
 
