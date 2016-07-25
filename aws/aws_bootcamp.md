@@ -153,3 +153,6 @@ You're not paying for processing power, you're paying for whether the instance i
 
 ####Amazon Simple Storage Service (S3)
 
+####Amazon Glacier
+* 1cent/GB/Month
+* Integrated with S3
