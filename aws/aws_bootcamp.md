@@ -30,4 +30,20 @@ Service Offerings:
    * ability to provision a permission capability
    * user, group, role
 
+Responsibility of the customer is to understand the network components.  
+####Network
+* VPC (virtual private cloud)
+  * segmenting and isolating the equipment from each other
+* ELB (elastic load balancer)
+  * distribute traffic among multiple nodes in the group
+* Route 53
+   * 
+
+####Servers --> EC2 (elastic compute cloud)
+dealing with virtual servers and compute instances  
+* AMI (amazon machine image)
+   * contains all the data to put on EC2 instance
+   
+* 
+* Instances
 
