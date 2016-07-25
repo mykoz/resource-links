@@ -156,3 +156,22 @@ You're not paying for processing power, you're paying for whether the instance i
 ####Amazon Glacier
 * 1cent/GB/Month
 * Integrated with S3
+
+* store all your static files over on S3
+* 
+####Amazon CloudFront
+
+EMR (elastic map reduce) - managed version of Hadoop
+
+####Structured Data Stores
+* DIY on EC2
+   * self-managed
+
+* AWS Managed
+   * RDMS - Amazon RDS
+      * fully managed relational DB service (SQL, MySQL, Oracle, Aurora, postgres, MariaDB)
+   * NoSQL - Amazon DynamoDB
+   * In-memory Cache - Amazon ElastiCache
+   * Data Warehouse - Amazon Redshift (data warehousing)
+
+RDS more expensive  
