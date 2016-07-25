@@ -66,6 +66,29 @@ AWS:  benefits - can go global in seconds; have already established fibers
 * Region: grouping of at least 2 data zones
 * High availability: can create a system that has ability to have failure at primary level, roll over to secondary, and have an acceptable level of downtime
 
+####Edge Locations  
+used for storing content; ex:  users upload videos to a site; say one goes viral; store copy of video in 54 locations around the world and direct traffic to that  
 
+####Monitoring Your Cloud Infrastructure
+* CloudWatch
+   * monitor specific metric of your resources. ex:  CPU of instance ; physical layer, CPU stuff;  Amazon does not have access to your guest level; can see from hardware level or below
 
+####AWS Platform
+Customers have difficulty staying on top of all the new platform offerings.  
 
+####Amazon EC2 Overview
+Broad set of Compute Instance Types  
+* General purpose:  server, balanced server, T2, M3, M4; t-series is a family (t=tiny or temporary); m-series (medium, 2 CPUs 2 GB, balanced)
+* Compute optimized: has high compute performance (C3, C4 c=compute; high compute workload, use c-box; C3 is older than C4)
+* Storage and IO optimized:   I2, D2 (d=dense storage); 
+* GPU enabled; G2
+* Memory optimized (R3; rseries; 
+* X1's : big storage
+
+####EC2 Terminology
+* AMI (amazon machine image); operating system; has all the information it. AMI can be applied to your virtual machine (instance)
+* running or stopped (stopped same as shutdown)
+* you choose the region, based on factors:  governance, requirements, latency to units, pricing varies by region; different regions have different pricing.  you select regions and availability zone
+* need to create VPC (virtual private cloud); all EC2 instances will be launched in VPC (new architecture, old was EC classic)
+* launch instance, then attach storage volumes; when you block box, ephemereal storage gone
+* EBS (elastic block storage)
