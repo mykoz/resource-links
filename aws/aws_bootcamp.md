@@ -3,3 +3,6 @@
 
 https://events-aws.qwiklab.com/live  
 
+Technical Trainer with AWS:  mattlupo at amazon dot com
+
+
