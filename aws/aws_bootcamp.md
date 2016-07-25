@@ -92,3 +92,4 @@ Broad set of Compute Instance Types
 * need to create VPC (virtual private cloud); all EC2 instances will be launched in VPC (new architecture, old was EC classic)
 * launch instance, then attach storage volumes; when you block box, ephemereal storage gone
 * EBS (elastic block storage)
+
