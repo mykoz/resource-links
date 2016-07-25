@@ -92,4 +92,42 @@ Broad set of Compute Instance Types
 * need to create VPC (virtual private cloud); all EC2 instances will be launched in VPC (new architecture, old was EC classic)
 * launch instance, then attach storage volumes; when you block box, ephemereal storage gone
 * EBS (elastic block storage)
+* snapshot - point in time back up; grab all the blocks in my availability zone, and put them up in regional level storage, called S3; S3 makes at least 3 copies of your data; your EBS volume is x? specific; higher durability and higher availability  
+* there is a snapshot fee; EBS volumes used for constant read and write
 
+####Default VPC
+* convenience of pre-built VPC
+* automatically assigned network and subnets
+* any instances launched 
+* security group:  instance based firewall
+* direct connect:  least line approach from my location to amazon co-location facility; have port to connect
+
+####Route 53:  going from amazon.com to a fun IP address
+* managed DNS service
+* domain name registration
+* fast zone updates
+* Multiple DNS routing features
+   * geo based routing
+   * latency based routing
+   * weighted round robin (
+   * DNS failover (my primary record isn't working; ability to health check on records..)
+* Zone Apex integration
+   * ELB, S3, CloudFront
+* Private DNS within VPC
+   * internal DNS names not exposed to internet
+   * supports split-horizon DNS
+
+####EC2 Pricing Options
+* amazon helps you save money
+* on-demand; low hourly fee
+* good for development testing
+* Reserved Instances
+   * need box for 1 to 3 years
+   * need reserved instance, get cost reduction
+   * ex:  reserve M4 large, about 28% reduction
+* Spot Instances
+   * amazon likes to gamble (annual conf in Las Vegas)
+   * allows you to bid on unused instances
+   * on-demand prices could get expensive; lower pricing
+   * can run spot instance, but could be terminated if someone needs the space
+   * 
