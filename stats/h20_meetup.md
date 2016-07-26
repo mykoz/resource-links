@@ -1,0 +1,1 @@
+https://github.com/h2oai/h2o-meetups/blob/master/2016_07_18_WiMLDS_NYC_Scalable_ML/scalable_ml_with_h2o_wimlds_nyc_meetup_july2016.pdf
