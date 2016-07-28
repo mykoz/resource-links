@@ -5,6 +5,9 @@ https://www.draw.io/
 http://www.mitchcrowe.com/learn-data-science-the-hard-way/  
 http://kramdown.gettalong.org/syntax.html  
 
+####Hacker Rank
+https://www.hackerrank.com/contests/hourrank-11/challenges
+
 ---
 
 Data Science Resources
