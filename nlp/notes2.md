@@ -12,8 +12,8 @@ make a list of errors:  London O should be London O-geoloc
 
 ```
 Example:  4-gram, phase: "Vote for Trump"
-Vote
-for
+Vote  O
+for   O
 Trump B-person
 
 ---
