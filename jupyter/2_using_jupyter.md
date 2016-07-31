@@ -36,8 +36,8 @@ You can run bash (or terminal) commands right from the notebook!
 
 ###Cell Types
 There are 3 cell types:  
-1.  Code  
-2.  Markdown
-3.  Raw
+1. Code  
+2. Markdown
+3. Raw
 
 You can use Markdown in Jupyter Notebook as well!  Can add headers, blocks of text, etc. 
