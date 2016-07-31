@@ -1,4 +1,4 @@
-##Jupyter (IPython) Notebook
+##Jupyter (IPython) Notebook:  Getting Started
 
 ####[Install the Notebook](http://jupyter.readthedocs.io/en/latest/install.html)
 Installing Jupyter using Anaconda and conda:  
