@@ -1,6 +1,8 @@
 ##Jupyter (IPython) Notebook:  Getting Started
 The Jupyter notebook is an interactive computational environment, in which you can combine code, execution, rich text, mathematics, plots and rich media. 
 
+---
+
 ####[Install the Notebook](http://jupyter.readthedocs.io/en/latest/install.html)
 Installing Jupyter using Anaconda and conda:  
 For new users, we highly recommend [installing Anaconda](https://www.continuum.io/downloads). Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.  (Prereq: Python is installed.)
