@@ -18,4 +18,7 @@ Once you launch Jupyter, it will open the notebook in your default browser.
 5.  Click on next gray cell and type the below.  Run the cell by typing: shift + return  
 `!python --version`
 
+**Note:  this is an example of running bash commands in a Jupyter notebook**  
 
+6.  Click on next gray cell and type the below.  Run the cell by typing: shift + return  
+`print("Hello, World!)`
