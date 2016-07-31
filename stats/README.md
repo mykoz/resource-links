@@ -9,6 +9,7 @@
 
 [ How do I interpret odds ratios in logistic regression?](http://www.ats.ucla.edu/stat/mult_pkg/faq/general/odds_ratio.htm)
 
+[Understanding neural networks with TensorFlow Playground](https://cloud.google.com/blog/big-data/2016/07/understanding-neural-networks-with-tensorflow-playground)
 
 ####Power
 The power of a hypothesis test is the probability of making the correct decision if the alternative hypothesis is true. That is, the power of a hypothesis test is the probability of rejecting the null hypothesis H0 when the alternative hypothesis HA is the hypothesis that is true.
