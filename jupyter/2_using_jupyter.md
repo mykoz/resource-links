@@ -12,13 +12,15 @@ Once you launch Jupyter, it will open the notebook in your default browser.
 
 1.  On upper right, select "New" and then "Python 2" (or your default version of Python)
 2.  Click on "Untitled" at upper left and rename your notebook.
-3.  Click on gray cell and type the following:  
+
+####Running bash commands in a Jupyter notebook**  
+You can run bash (or terminal) commands right from the notebook!  
+1.  Click on gray cell and type the following:  
 `!pwd`
-4.  Run the cell by typing:  shift + return
-5.  Click on next gray cell and type the below.  Run the cell by typing: shift + return  
+2.  Run the cell by typing:  shift + return
+3.  Click on next gray cell and type the below.  Run the cell by typing: shift + return  
 `!python --version`
 
-**Note:  this is an example of running bash commands in a Jupyter notebook**  
-
-6.  Click on next gray cell and type the below.  Run the cell by typing: shift + return  
+####Running python in a Jupyter notebook**  
+1.  .  Click on next gray cell and type the below.  Run the cell by typing: shift + return  
 `print("Hello, World!)`
