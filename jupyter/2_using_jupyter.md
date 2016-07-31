@@ -19,20 +19,20 @@ You can run bash (or terminal) commands right from the notebook!
 * Click on gray cell and type the following:  
 `!pwd`  
 * Run the cell by typing:  `shift + return`  
-* Click on next gray cell and type the below.  Run the cell by typing: `shift + return`  
+* Click on next gray cell and type the below.  
 `!python --version`
+* Run the cell by typing: `shift + return`
 
 ###Running python in a Jupyter notebook  
-* Click on next gray cell and type the below.  Run the cell by typing: `shift + return`  
+* Click on next gray cell and type the below.    
 `print("Hello, World!)`
+* Run the cell by typing: `shift + return`
 
 ###Other Helpful Commands
 
-* **Help Menu**
-  esc + h
+* **Help Menu** `esc + h`
 
-* **Save Notebook**
-  command + s
+* **Save Notebook** `command + s`
 
 ###Cell Types
 There are 3 cell types:  
