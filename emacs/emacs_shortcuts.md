@@ -1,4 +1,23 @@
 
+####Setting the Mark
+
+```
+Here are some commands for setting the mark:
+
+C-<SPC>
+    Set the mark at point, and activate it (set-mark-command). 
+
+Once you have a region selected, the most basic commands are:
+
+    To COPY:  Esc+w             (press M-w. (M = escape key))
+    To PASTE:  C-y
+    
+    To cut the text, press C-w.
+    
+```
+
+---
+
 ```
 CTRL-k
     Delete LINE
@@ -40,28 +59,6 @@ ESC <
     go to the beginning of the file
 ESC >
     go to the end of the file
-
-
-
- 
- 
-11.1 Setting the Mark
-
-Here are some commands for setting the mark:
-
-C-<SPC>
-    Set the mark at point, and activate it (set-mark-command). 
-
-
-Once you have a region selected, the most basic commands are:
-
-    To cut the text, press C-w.
-    To copy the text, press M-w. (M = escape key)
-    To paste the text, press C-y.
-
-
-
-
 
 
 ESC x goto-line
