@@ -1,3 +1,8 @@
+
+[Statistical Data Mining Tutorials (by Andrew Moore)](http://www.autonlab.org/tutorials/list.html)
+
+---
+
 Resume Templates  
 http://creddle.io/  
 https://www.draw.io/
