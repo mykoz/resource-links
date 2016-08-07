@@ -128,3 +128,17 @@ A minimal and mobile-first blog theme for Jekyll
 
 https://github.com/KingFelix/emerald
 
+---
+
+jekyll serve - converts markdown to HTML
+
+colons in table - centers left  
+collections - [another webpage or drop down]  
+default menus:  Posts, About  
+
+book:  Fluent Python  (recommended by LM)  
+
+mathjax  
+* data options: data/options.yml
+* 
+
