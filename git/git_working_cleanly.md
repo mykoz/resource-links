@@ -19,3 +19,14 @@ git diff --stat "$branch"
 git checkout --merge "$branch" "$file"
 git diff --stat "$branch"
 ```
+
+--
+
+##Tips for Working Cleanly
+
+###Launch your notebook from your working branch (not `master` branch)
+
+###Adding files
+* Do this:  `git add filename`
+* DON'T do this:  `git add . `
+
