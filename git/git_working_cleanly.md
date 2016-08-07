@@ -30,3 +30,12 @@ git diff --stat "$branch"
 * Do this:  `git add filename`
 * DON'T do this:  `git add . `
 
+-- 
+
+#Git:  Proposed Workflow
+
+1.  Fork, clone, git remote add upstream 
+2.  Branching
+3.  Work in reshama_wip branch, Launch notebook from reshama_wip branch
+4.  Copy file to be merged into thisismetis/ds8 repo by copying into master branch from working branch
+5.  
