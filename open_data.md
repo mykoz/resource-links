@@ -4,4 +4,6 @@
 
 [The Internet Movie Script Database (IMSDb)](http://www.imsdb.com/)  
 
+[SWAPI (The Star Wars API)](https://swapi.co/)  
+
 
