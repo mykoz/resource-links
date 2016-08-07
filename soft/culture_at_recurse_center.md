@@ -11,4 +11,7 @@ By:   Sonali Sridhar  Twitter:  [@jollysonali](https://twitter.com/jollysonali?l
 * No back seat driving - interrupting to offer a comment w/o engaging in a conversation.  Step into the conversation, introduce yourself; else catch someone at lunch.  
 * No subtle-isms - small things that make people feel uncomfortable
 * Don't pile on
-* 
+
+####Reference
+Rebecca Miller Webster - micro aggressions  
+
