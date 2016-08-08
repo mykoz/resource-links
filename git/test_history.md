@@ -1,6 +1,6 @@
 
 
-```
+```bash
 # print present working directory
 pwd
 # create new directory
