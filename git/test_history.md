@@ -3,6 +3,7 @@
 ```bash
 # print present working directory
 pwd
+/Users/reshamashaikh/ds/metis/metisgh
 # create new directory
 mkdir prework
 # list files
