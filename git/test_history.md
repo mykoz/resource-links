@@ -11,7 +11,6 @@ ls
 cd prework
 # clone the repo
 git clone https://github.com/reshama/dsp.git
-# list files
 ls
 # change directory, go into dsp
 cd dsp
@@ -36,7 +35,6 @@ git push
 
 # clear screen
 clear
-# list files
 ls
 
 # open up file and see if any changes have been made to file
@@ -46,7 +44,6 @@ emacs 00-fork_repo.md
 git remote -v
 # pull updates from forked repo on broswer
 git pull
-# list files
 ls
 # check file and see that the updated changes from browser file are now in local file
 emacs 00-fork_repo.md
