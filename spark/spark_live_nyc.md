@@ -85,5 +85,20 @@ Intel, Principal Engineer
 Basho  
 Alexander Sicular
 
+---
+
+#Technical Training
+http://tinyurl.com/NYCSparkLive   
+Instructor:  Jacob Parr
+
+in cell:  
+```
+%python
+1 + 1
+```
+keyboard - list of shortcuts  
+Publish - can share code  
+Comments - can add comments  
+Revision History  
 
 
