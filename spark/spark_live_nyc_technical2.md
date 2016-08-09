@@ -13,12 +13,44 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 
 %sh is a magic command in Databricks to run shell commands in the container.
 Check how much memory is free on the EC2 machine:  
-%sh free -mh  
+`%sh free -mh`  
 
 The jps tool lists the Java Virtual Machines (JVMs) in the container:  
-%sh jps  
+`%sh jps`  
 
 DriverDaemon above is the actual 3.7 GB Spark JVM. Ignore jps in the output above as it's just the jps command running. We'll cover ChauffeurDaemon soon.
 jps -v prints verbose details about each JVM:  
-%sh jp
+`%sh jp`
+
+sql = structured query language  
+
+The explain() method can be called on a DataFrame to understand its physical plan:  
+`in_out_ratioDF.explain()`
+
+---
+
+###Start with the Bonus Graph D3js Notebook, then return here...  
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1025105642612129/1239890846175084/4592099822616319/latest.html  
+
+```
+
+Before we can do anything, we need the Graph Frames API.
+1. Open your workspace
+Right-click > Create > Library
+Change the source to Maven Coordinate
+Click Search SparkPackages and Maven Central
+Search for graphframes
+Select the correct release
+Click Select
+Click Create Library
+Click Attach automatically to all clusters.
+10. Restart your cluster
+```
+
+###Explore English Wikipedia via DataFrames and RDD API
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1025105642612129/1239890846175725/4592099822616319/latest.html  
+
+
+
+
 
