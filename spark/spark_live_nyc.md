@@ -101,4 +101,17 @@ Publish - can share code
 Comments - can add comments  
 Revision History  
 
+Home button - to my account folder  
+Application Examples - tons of examples  
+Database Guides  
+Library - where we have libraries  
+Spark-Live - name of our course  
+
+datasets_mount  
+creates links from AWS to here, to bring in datasets  
+ReadMe - version of notebook we've gone through, executed code, to follow along, everything is run   
+RunMe - version we will work with for majority of class, code is already there, 90% of it, 
+DE - data engineer  
+DA - data analysis  
+DS - 
 
