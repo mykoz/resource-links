@@ -38,8 +38,10 @@ pagecountsEnAllDF
   .orderBy($"sum(requests)".desc)    //transformation
   .show()                            //action
 ```
+If you comment out `show()`, nothing will happen.  It won't execute.  
 
-Transformations:
+
+####Transformations:
 * select
 * distinct
 * groupBy
@@ -48,11 +50,28 @@ Transformations:
 * filter
 * limit
 
-Actions:  
+####Actions:  
 * show
 * count
 * collect
 * save
+
+can tab after the dot to see all the different operations  
+`pagecountsEnAllDF.filter($"project$" === "en")`  
+
+`$` is Scala way of saying this is a column object.  
+= assignment  
+==  
+===    (lazy = operation, evaluate it later)  
+
+transformation - lazy  
+action - executes
+
+####`display` is a Databricks feature; lot of functionality from that display option  
+```
+// Display the DataFrame as a HTML table so it's easier to read
+display(pagecountsEnWikipediaDF.orderBy($"requests".desc).limit(25))
+```  
 
 
 
