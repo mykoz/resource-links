@@ -39,10 +39,35 @@ https://databricks.com/spark-live/new-york-ny
 https://databricks.com/blog/2016/03/16/on-time-flight-performance-with-graphframes-for-apache-spark.html  
 dashboard:  name our dashboard  
 can schedule notebook in production  
+Vida Ha, Solutions Architect  
 * can set email alert options, time out, retry it
-* 
+* langs:  python, scala, r, java
+* ? can't download notebooks, will spin out a micro-cluster of 6 GB, 6 nodes on Community Edition
+* 50-60 GB of data might be doable on 6GB cluster, depends on data
+* small cluster pricing is reasonably free
+* On-demand instance, Spot instance (market rate)
+* For professional edition, < 1 hour set up , can connect to AWS, then it works right out of the box, meant to be a managed service
 
 
 * under a minute, you can create a Spark cluster
 * comes up in AWS account
 * 
+
+###Future of Databricks
+Bringing Apache Spark to the Enterprise  
+Maddie Schults, Product Manager  
+
+* Percent of Big data projects that will fail thru 2017 is 60%  
+* Goal of Databricks:  How do we minimize your cost and time so you can get to actionable insights with your data?
+* Spark is cloud-agnostic, can move workload to any cloud platform
+
+####Major Features in Spark 2.0
+* released July 2016
+* Performance - Tungsten Phase 2 speedups of 5-20x
+* Structured Streaming Engine
+* SQL 2003 & Machine Learning - full SQL support, a lot more machine learning support
+* 
+
+
+
+
