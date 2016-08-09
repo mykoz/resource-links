@@ -28,6 +28,33 @@ parquet file - csv file without data types
 ####Count the number of total records (rows) in the DataFrame:  
 `pagecountsEnAllDF.count`  
 
+####transformations - are considered lazy  
+####action -  when those transformations are actually executed  
+```
+pagecountsEnAllDF
+  .select($"project", $"requests")   //transformation
+  .groupBy($"project")               //transformation
+  .sum()                             //transformation
+  .orderBy($"sum(requests)".desc)    //transformation
+  .show()                            //action
+```
+
+Transformations:
+* select
+* distinct
+* groupBy
+* sum
+* orderBy
+* filter
+* limit
+
+Actions:  
+* show
+* count
+* collect
+* save
+
+
 
 
 
