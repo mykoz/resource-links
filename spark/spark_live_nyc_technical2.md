@@ -52,5 +52,45 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 
 
 
+sparl.mllib  
+* original lower level APIs
+* 
+vs  
+spark.ml  
+* newer "higher-level" API for constructing workflows
+* built on top of DataFrames
 
+New Circle - offers classes
+
+TF-IDF  
+lower the words that occur more frequently  
+
+####K-means clustering
+An unsupervised ML algorithm for classifying items into `k` groups.  
+k:  the number of pre-chosen groups  
+
+####Spark ML Pipeline
+DataFrame:
+Tokenizer()  
+StopWordsRemover()  
+hashingTF()  
+IDF()  
+normalizer() - articles may have higher scores if there are a lot more words
+kmeans()  
+
+####07-DS-Wiki-ML
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1025105642612129/1239890846175418/4592099822616319/latest.html  
+
+####Set up the ML Pipeline
+
+
+####Spark Streaming
+about having a huge firehose of data thrown at you  
+* runs micro-batches at fixed batch intervals
+* batch processing time > batch interval
+* 
+
+When running on Databricks, the SparkContext is already created for us.  
+`sc`  
+Create a new `StreamingContext`, using the   
 
