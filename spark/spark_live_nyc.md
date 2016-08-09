@@ -115,3 +115,6 @@ DE - data engineer
 DA - data analysis  
 DS - 
 
+Driver / Executor  
+
+JVM = Java Virtual Machine  
