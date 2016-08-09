@@ -76,7 +76,14 @@ Databricks - managed Spark cluster that provides a collaborative environment
   * 3rd party ML integrations:  sci-kit learn, tensor flow (deep learning)
   
 
+###Amazing Analytics from Silicon to Software — Intel
+Meena Arunachalam  
+Intel, Principal Engineer  
+(from West Coast)  
 
+###
+Basho  
+Alexander Sicular
 
 
 
