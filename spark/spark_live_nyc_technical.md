@@ -90,6 +90,25 @@ val tempDf = sqlContext.read
 tempDf.registerTempTable("pageviews_by_second")
 ```
 
+Spark dataframe does allow nested columns in data (versus flat file)  
+
+
+`printSchema()` prints out the schema for the table, the data types for each column and whether a column can be null:  
+`pageviewsDF.printSchema`  
+
+####Partitions and Tasks
+DataFrames are made of one or more partitions. To see the number of partitions a DataFrame is made of:
+```
+pageviewsDF.rdd.partitions.size
+```
+
+
+Count the number of records (rows) in the DataFrame:
+`pageviewsDF.count`  
+
+
+
+
 
 
 
