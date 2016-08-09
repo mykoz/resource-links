@@ -73,6 +73,22 @@ action - executes
 display(pagecountsEnWikipediaDF.orderBy($"requests".desc).limit(25))
 ```  
 
+####Data Import
+
+JDBC (Cassandra, etc)  
+Table / Create Table / Data Import  
+
+We can import file directly with this command: 
+```
+val tempDf = sqlContext.read
+   .format("com.databricks.spark.csv")
+   .option("header", "true")        // Use first line of all files as header
+   .option("inferSchema", "true")   // Automatically infer data types
+   .option("delimiter", "\t")       // Use tab delimiter (default is comma-separator)
+   .load("/mnt/wikipedia-readonly/pageviews/pageviews_by_second.tsv")
+
+tempDf.registerTempTable("pageviews_by_second")
+```
 
 
 
