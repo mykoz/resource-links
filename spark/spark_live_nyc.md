@@ -68,6 +68,15 @@ Maddie Schults, Product Manager
 * SQL 2003 & Machine Learning - full SQL support, a lot more machine learning support
 * 
 
+Databricks - managed Spark cluster that provides a collaborative environment  
+####Near-Term Roadmap
+* single-sign on
+* Advanced Analytics
+  * support vis libraries:  plot.ly, bokeh
+  * 3rd party ML integrations:  sci-kit learn, tensor flow (deep learning)
+  
+
+
 
 
 
