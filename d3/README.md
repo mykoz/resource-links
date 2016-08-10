@@ -2,6 +2,13 @@ Google Chrome:
 > this opens the Developer window:  Option + Command + i
 
 ---
+
+Mozille Developer Network  
+https://developer.mozilla.org/en-US/
+
+---
+
+
 ####Interactive Data Visualization for the Web
 
 The book is available online for free.  
