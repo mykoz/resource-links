@@ -1,3 +1,14 @@
+
+```python
+# Convert from:  'If you\'re driving into town  With a dark'
+# Convert to:  'If you're driving into town  With a dark'
+import unicodedata
+unicodedata.normalize('NFKD',"you\'re").encode('ascii', 'ignore'))
+```
+
+
+---
+
 ```
 from __future__ import unicode_literals
 ```
