@@ -60,6 +60,7 @@ reshama$ tar zxvf spark-2.0.0-bin-hadoop2.7.tgz
 ```
 
 ####Launch Spark Interactively by typing `bin/pyspark`:  
+**Note:**  make sure you are in the appropriate directory.  
 ```bash
 reshama$ pwd
 /Users/rshaikh/apps/spark/spark-2.0.0-bin-hadoop2.7
