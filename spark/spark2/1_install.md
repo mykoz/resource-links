@@ -21,6 +21,21 @@ drwxr-xr-x  3 rshaikh  staff  102 Apr 27 12:16 mongodb/
 drwxr-xr-x  3 rshaikh  staff  102 Aug 15 12:31 spark/
 reshama$ 
 ```
+I am now in this folder:  
+```bash
+reshama$ pwd
+/Users/rshaikh/apps/spark
+reshama$ ls
+spark-2.0.0-bin-hadoop2.7.tgz
+reshama$ 
+```
+Next, expand the `*.tgz` file:  
+```bash
+
+
+```
+
+
 
 
 
