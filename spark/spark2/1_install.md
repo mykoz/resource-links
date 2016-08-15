@@ -1,11 +1,11 @@
 #Installing Spark
 (Last updated:  8/15/16, Reshama)  
 (Source:  http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/)  
+https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python  
 
+---
 
-
-##Requirements
-###Java
+###Requirements:  Java
 Check if Java is installed
 ```bash
 reshama$ java -version
@@ -23,6 +23,8 @@ Java(TM) SE Runtime Environment (build 1.8.0_101-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 reshama$ 
 ```
+
+---
 
 ####Spark
 1.  http://spark.apache.org/downloads.html  
