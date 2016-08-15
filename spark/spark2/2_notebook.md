@@ -10,6 +10,9 @@ export PATH=$SPARK_HOME/bin:$PATH
 export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
 export PYSPARK_SUBMIT_ARGS="--master local[2]"
 ```
+```
+reshama$ source ~/.bash_profile
+```
 
 Read up on this:  
 Minimizing the Verbosity of Spark  
@@ -20,3 +23,8 @@ $ ipython profile create spark
 ```
   
 
+reshama$ emacs ~/.ipython/profile_spark/startup/00-pyspark-setup.py
+
+reshama$ echo $SPARK_HOME 
+/Users/rshaikh/apps/spark/spark-2.0.0-bin-hadoop2.7
+reshama$ 
