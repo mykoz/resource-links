@@ -20,7 +20,7 @@ Java source file:  https://java.com/en/download/
 Java installation instructions:  https://java.com/en/download/help/mac_install.xml  
 
 
-
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 ####Spark
 1.  http://spark.apache.org/downloads.html  
