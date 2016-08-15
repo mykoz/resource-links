@@ -31,8 +31,7 @@ reshama$
 ```
 Next, expand the `*.tgz` file:  
 ```bash
-
-
+reshama$ tar zxvf spark-2.0.0-bin-hadoop2.7.tgz
 ```
 
 
