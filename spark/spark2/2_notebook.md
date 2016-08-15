@@ -14,4 +14,9 @@ export PYSPARK_SUBMIT_ARGS="--master local[2]"
 Read up on this:  
 Minimizing the Verbosity of Spark  
 
+Create an iPython notebook profile for our Spark configuration.  
+```bash
+$ ipython profile create spark
+```
+
 
