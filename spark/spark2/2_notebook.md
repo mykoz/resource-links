@@ -2,11 +2,13 @@
 
 https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python  
 
+
+
+####In your bash_profile file:  
 ```bash
 reshama$ emacs ~/.ipython/profile_spark/startup/00-pyspark-setup.py
 ```
 
-####In your bash_profile file:  
 ```bash
 # spark set up                                                                  
 export SPARK_HOME=/Users/rshaikh/apps/spark/spark-2.0.0-bin-hadoop2.7
