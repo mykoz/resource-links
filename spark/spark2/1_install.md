@@ -26,7 +26,7 @@ reshama$
 
 ---
 
-####Spark
+###Spark
 1.  http://spark.apache.org/downloads.html  
     * Choose a Spark release:  2.0.0
     * Download Spark: spark-2.0.0-bin-hadoop2.7.tgz (click on spark-... link and download)
