@@ -14,6 +14,7 @@ For me, it is not, so I will install from Java website:
 * Download site:  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 * Accept license agreement  
 * Choose appropriate file.  For me, it is:  `Mac OS X	227.35 MB  	jdk-8u102-macosx-x64.dmg`
+* Install package by clicking on `*.dmg` file
 
 ####Confirm Java is installed by typing `java -version`
 ```bash
