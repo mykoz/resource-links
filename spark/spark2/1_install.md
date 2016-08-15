@@ -7,6 +7,18 @@ Source:
 http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
 
 ##Installing Spark
+
+###Requirements
+####Java
+Check if Java is installed
+```bash
+reshama$ java --version
+No Java runtime present, requesting install.
+```
+
+
+
+####Spark
 1.  http://spark.apache.org/downloads.html  
     * Choose a Spark release:  2.0.0
     * Download Spark: spark-2.0.0-bin-hadoop2.7.tgz (click on spark-... link and download)
@@ -33,6 +45,13 @@ Next, expand the `*.tgz` file:
 ```bash
 reshama$ tar zxvf spark-2.0.0-bin-hadoop2.7.tgz
 ```
+Run `bin/pyspark`  
+```bash
+reshama$ pwd
+/Users/rshaikh/apps/spark/spark-2.0.0-bin-hadoop2.7
+reshama$ bin/pyspark
+```
+
 
 
 
