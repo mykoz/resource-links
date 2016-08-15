@@ -89,7 +89,17 @@ Using Python version 2.7.6 (default, Sep  9 2014 15:04:36)
 SparkSession available as 'spark'.
 >>> 
 ```
+Confirm spark context is there by typing `sc`:  
+```bash
+>>> sc
+<pyspark.context.SparkContext object at 0x107083e50>
+```
 
+To exit interactive Spark, type `exit()`:   
+```bash
+>>> exit()
+reshama$ 
+```
 
 
 
