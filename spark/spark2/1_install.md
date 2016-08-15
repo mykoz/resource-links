@@ -23,8 +23,13 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 Accept license agreement  
 
 Mac OS X	227.35 MB  	jdk-8u102-macosx-x64.dmg  
-
-
+```bash
+reshama$ java -version
+java version "1.8.0_101"
+Java(TM) SE Runtime Environment (build 1.8.0_101-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
+reshama$ 
+```
 
 ####Spark
 1.  http://spark.apache.org/downloads.html  
