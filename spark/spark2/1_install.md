@@ -1,12 +1,8 @@
+#Installing Spark
+(Last updated:  8/15/16, Reshama)  
+(Source:  http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/)  
 
-Last updated:  8/15/16  
 
-Spark Installation:
-
-Source:  
-http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
-
-##Installing Spark
 
 ##Requirements
 ###Java
