@@ -1,4 +1,8 @@
 
+Last updated:  8/15/16  
+
+Spark Installation:
+
 http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
 
 
