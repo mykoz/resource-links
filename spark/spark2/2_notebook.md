@@ -28,3 +28,8 @@ reshama$ emacs ~/.ipython/profile_spark/startup/00-pyspark-setup.py
 reshama$ echo $SPARK_HOME 
 /Users/rshaikh/apps/spark/spark-2.0.0-bin-hadoop2.7
 reshama$ 
+
+
+[Profiles Not Supported Anymore in IPython Notebooks](http://stackoverflow.com/questions/34530276/profiles-not-supported-anymore-in-ipython-notebooks)  
+
+pip install ipython[notebook]==3.2.3
