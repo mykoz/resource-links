@@ -18,5 +18,5 @@ Create an iPython notebook profile for our Spark configuration.
 ```bash
 $ ipython profile create spark
 ```
-
+  
 
