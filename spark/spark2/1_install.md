@@ -15,7 +15,11 @@ Check if Java is installed
 reshama$ java --version
 No Java runtime present, requesting install.
 ```
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+For me, it is not, so I will install from Java website:  
+Java source file:  https://java.com/en/download/  
+Java installation instructions:  https://java.com/en/download/help/mac_install.xml  
+
+
 
 
 ####Spark
