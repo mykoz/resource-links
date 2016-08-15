@@ -8,21 +8,18 @@ http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
 
 ##Installing Spark
 
-###Requirements
-####Java
+##Requirements
+###Java
 Check if Java is installed
 ```bash
-reshama$ java --version
-No Java runtime present, requesting install.
+reshama$ java -version
 ```
 For me, it is not, so I will install from Java website:  
-Java source file:  https://java.com/en/download/  
-Java installation instructions:  https://java.com/en/download/help/mac_install.xml  
+* Download site:  http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+* Accept license agreement  
+* Choose appropriate file.  For me, it is:  `Mac OS X	227.35 MB  	jdk-8u102-macosx-x64.dmg`
 
-http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-Accept license agreement  
-
-Mac OS X	227.35 MB  	jdk-8u102-macosx-x64.dmg  
+####Confirm Java is installed by typing `java -version`
 ```bash
 reshama$ java -version
 java version "1.8.0_101"
