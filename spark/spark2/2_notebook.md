@@ -11,3 +11,7 @@ export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
 export PYSPARK_SUBMIT_ARGS="--master local[2]"
 ```
 
+Read up on this:  
+Minimizing the Verbosity of Spark  
+
+
