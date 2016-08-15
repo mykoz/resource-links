@@ -58,17 +58,15 @@ Next, expand the `*.tgz` file:
 ```bash
 reshama$ tar zxvf spark-2.0.0-bin-hadoop2.7.tgz
 ```
-Run `bin/pyspark`  
+
+####Launch Spark Interactively by typing `bin/pyspark`:  
 ```bash
 reshama$ pwd
 /Users/rshaikh/apps/spark/spark-2.0.0-bin-hadoop2.7
 reshama$ bin/pyspark
-```
+```  
 
-####Lauch Spark Interactively
-`bin/pyspark`
-  
-
+####Example of what interactive spark looks like once launced
 ```bash
 reshama$ bin/pyspark
 Python 2.7.6 (default, Sep  9 2014, 15:04:36) 
@@ -89,13 +87,13 @@ Using Python version 2.7.6 (default, Sep  9 2014 15:04:36)
 SparkSession available as 'spark'.
 >>> 
 ```
-Confirm spark context is there by typing `sc`:  
+####Confirm spark context is there by typing `sc`:  
 ```bash
 >>> sc
 <pyspark.context.SparkContext object at 0x107083e50>
 ```
 
-To exit interactive Spark, type `exit()`:   
+####To exit interactive Spark, type `exit()`:   
 ```bash
 >>> exit()
 reshama$ 
