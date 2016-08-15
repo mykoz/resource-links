@@ -19,8 +19,12 @@ For me, it is not, so I will install from Java website:
 Java source file:  https://java.com/en/download/  
 Java installation instructions:  https://java.com/en/download/help/mac_install.xml  
 
-
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+Accept license agreement  
+
+Mac OS X	227.35 MB  	jdk-8u102-macosx-x64.dmg  
+
+
 
 ####Spark
 1.  http://spark.apache.org/downloads.html  
