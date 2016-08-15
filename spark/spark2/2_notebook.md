@@ -22,6 +22,11 @@ Create an iPython notebook profile for our Spark configuration.
 $ ipython profile create spark
 ```
   
+```bash
+echo $SPARK_HOME 
+echo $PATH
+echo $PYTHONPATH
+```
 
 reshama$ emacs ~/.ipython/profile_spark/startup/00-pyspark-setup.py
 
