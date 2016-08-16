@@ -6,7 +6,7 @@
 * https://github.com/thisismetis/nyc16_ds6/blob/master/09-kojak1/04-kojak/spark.md
 * x
 * http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
-* 
+ 
 
 ---
 
