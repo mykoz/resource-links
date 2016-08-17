@@ -105,7 +105,7 @@ SparkSession available as 'spark'.
 reshama$ 
 ```
 
-**Congrats!  You are now running Spark!  with Python!** :boom:
+:boom: **Congrats!  You are now running Spark!  with Python!** :boom:
 
 
 
