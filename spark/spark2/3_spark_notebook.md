@@ -1,4 +1,4 @@
-##Spark Notebook Configuration
+#Spark Notebook Configuration
 
 https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python  
 
@@ -41,6 +41,7 @@ reshama$ echo $SPARK_HOME
 reshama$ 
 ```
 
+---
 
 ####Errors
 **`--profile` error
