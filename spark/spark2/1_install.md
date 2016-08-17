@@ -10,7 +10,7 @@
 
 ---
 
-###Requirements:  Java
+##Requirements:  Java
 Check if Java is installed
 ```bash
 reshama$ java -version
@@ -32,14 +32,16 @@ reshama$
 
 ---
 
-###Spark
-1.  http://spark.apache.org/downloads.html  
+##Spark Download and Install
+
+1.  Download Spark from this site:  http://spark.apache.org/downloads.html  
     * Choose a Spark release:  2.0.0
-    * Download Spark: spark-2.0.0-bin-hadoop2.7.tgz (click on spark-... link and download)
+    * Download Spark: spark-2.0.0-bin-hadoop2.7.tgz (click on this file link and download)
     * Move Spark download to folder:  `user/myname/apps/`
     * `cd` into that folder:  `user/myname/apps/`
-    * Expand the spark-2.0.0-bin-hadoop2.7.tgz file with `tar zxvf spark-2.0.0-bin-hadoop2.7.tgz`
+    * Expand the spark-2.0.0-bin-hadoop2.7.tgz file with this command:  `tar zxvf spark-2.0.0-bin-hadoop2.7.tgz`
 
+####Example of my installation
 ```bash
 reshama$ pwd
 /Users/rshaikh/apps
@@ -49,7 +51,7 @@ drwxr-xr-x  3 rshaikh  staff  102 Apr 27 12:16 mongodb/
 drwxr-xr-x  3 rshaikh  staff  102 Aug 15 12:31 spark/
 reshama$ 
 ```
-I am now in this folder:  
+I have used `cd` to go into this folder:  
 ```bash
 reshama$ pwd
 /Users/rshaikh/apps/spark
@@ -62,7 +64,7 @@ Next, expand the `*.tgz` file:
 reshama$ tar zxvf spark-2.0.0-bin-hadoop2.7.tgz
 ```
 
-####Launch Spark Interactively by typing `bin/pyspark`:  
+###Launch Spark Interactively by typing `bin/pyspark`:  
 **Note:**  make sure you are in the appropriate directory.  
 ```bash
 reshama$ pwd
@@ -70,7 +72,7 @@ reshama$ pwd
 reshama$ bin/pyspark
 ```  
 
-####Example of what interactive spark looks like once launced
+###Example of what interactive spark looks like once launced
 ```bash
 reshama$ bin/pyspark
 Python 2.7.6 (default, Sep  9 2014, 15:04:36) 
@@ -91,13 +93,13 @@ Using Python version 2.7.6 (default, Sep  9 2014 15:04:36)
 SparkSession available as 'spark'.
 >>> 
 ```
-####Confirm spark context is there by typing `sc`:  
+###Confirm spark context is there by typing `sc`:  
 ```bash
 >>> sc
 <pyspark.context.SparkContext object at 0x107083e50>
 ```
 
-####To exit interactive Spark, type `exit()`:   
+###To exit interactive Spark, type `exit()`:   
 ```bash
 >>> exit()
 reshama$ 
