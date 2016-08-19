@@ -1,4 +1,4 @@
-
+```
 Thank you for being so responsive to our most recent pre-work email. I can see that you have already forked the repository and  hope the work is going well. Just a heads up that we made a final update on Thursday, so the statistics portion of your repo is out of date. Worry not! It’s a workable fix (and you’ll learn more GitHub).
 
 NOTE: If you have not cloned the repo yet, do that before you do this. You will need to be in your cloned repo for this to work. 
@@ -25,3 +25,4 @@ git fetch upstream
 And then:
 
 git merge upstream/master
+```
