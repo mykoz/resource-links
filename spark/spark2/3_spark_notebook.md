@@ -1,7 +1,7 @@
 #Spark Notebook Configuration
 
-https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python  
-
+* [Getting Started with Spark in Python](https://districtdatalabs.silvrback.com/getting-started-with-spark-in-python)  
+* [Quick-start Apache Spark Environment Using Docker Containers](http://maxmelnick.com/2016/06/04/spark-docker.html)
 
 
 ####In your bash_profile file:  
