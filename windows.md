@@ -14,3 +14,5 @@ Specific Examples (of what's more difficult on Windows):
 * scheduling tasks
 
 Windows is discouraged, but some people are actually productive on Windows. It’s like an evolutionary disadvantage; if you’re successful anyway it sometimes means your other traits are quite good.  If you really want to run Windows, maybe you should. But we don’t like to put students in a position where we can’t help them, and we don’t support Windows.
+
+![save your work](img/save_your_work.png)
